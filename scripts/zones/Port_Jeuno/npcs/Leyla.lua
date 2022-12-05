@@ -25,6 +25,8 @@ entity.onTrigger = function(player, npc)
         5034, 2208,    -- Vivacious Etude
         5033, 2815,    -- Dextrous Etude
         5032, 3146,    -- Sinewy Etude
+        1126, 10000,    -- BS
+        1127, 10000,    -- KS
     }
 
     player:showText(npc, ID.text.DUTY_FREE_SHOP_DIALOG)
