@@ -23,6 +23,8 @@ entity.onTrigger = function(player, npc)
         189,  36000,    -- Autumn's End
         188,  31224,    -- Acolyte's Grief
         5085, 50400,    -- Scroll of Regen IV
+        1126, 10000,    -- BS
+        1127, 10000,    -- KS
     }
 
     player:showText(npc, ID.text.DUTY_FREE_SHOP_DIALOG)
