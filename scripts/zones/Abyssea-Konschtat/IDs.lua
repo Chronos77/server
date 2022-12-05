@@ -1,6 +1,7 @@
 -----------------------------------
 -- Area: Abyssea-Konschtat
 -----------------------------------
+
 zones = zones or {}
 
 zones[xi.zone.ABYSSEA_KONSCHTAT] =
