@@ -1,6 +1,7 @@
 -----------------------------------
 -- Area: Abyssea-Konschtat
 -----------------------------------
+
 zones = zones or {}
 
 zones[xi.zone.ABYSSEA_KONSCHTAT] =
@@ -74,6 +75,11 @@ zones[xi.zone.ABYSSEA_KONSCHTAT] =
     mob =
     {
         GUIMAUVE                = 16838912,
+        GUIMAUVE_PH             =
+        {
+            [16838904] = 16838912,
+            [16838907] = 16838912
+        },
         ASHTAERH_THE_GALLVEXED  = 16838718,
         SARCOPHILUS             = 16838767,
         BOMBADEEL               = 16838782,
