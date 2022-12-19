@@ -3050,6 +3050,7 @@ xi.items =
     PROTEAN_RING                    = 14652,
     VARIABLE_RING                   = 14653,
     DUCAL_GUARDS_RING               = 14657,
+    TAVNAZIAN_RING                  = 14672,
     ASSAILANTS_RING                 = 14676,
     SUPPANOMIMI                     = 14739,
     KNIGHTS_EARRING                 = 14740,
