@@ -4816,7 +4816,9 @@ INSERT INTO `mob_spell_lists` VALUES ('Ixzdei_BLM',467,186,1,255); -- aeroga_iii
 INSERT INTO `mob_spell_lists` VALUES ('Ixzdei_BLM',467,191,1,255); -- stonega_iii (1~255)
 
 -- Ixzdei_RDM (468)
-INSERT INTO `mob_spell_lists` VALUES ('Ixzdei_RDM',468,191,1,255); -- stonega_iii (1~255)
+INSERT INTO `mob_spell_lists` VALUES ('Ixzdei_RDM',468,25,1,255); -- dia_iii (1~255)
+INSERT INTO `mob_spell_lists` VALUES ('Ixzdei_RDM',468,221,1,255); -- poison_ii (1~255)
+INSERT INTO `mob_spell_lists` VALUES ('Ixzdei_RDM',468,232,1,255); -- bio_iii (1~255)
 INSERT INTO `mob_spell_lists` VALUES ('Ixzdei_RDM',468,254,1,255); -- blind (1~255)
 INSERT INTO `mob_spell_lists` VALUES ('Ixzdei_RDM',468,260,1,255); -- dispel (1~255)
 

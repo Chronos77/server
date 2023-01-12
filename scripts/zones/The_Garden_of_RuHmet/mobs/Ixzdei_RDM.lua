@@ -31,7 +31,7 @@ entity.onMobSpawn = function(mob)
     xi.mix.jobSpecial.config(mob, {
         specials =
         {
-            { id = xi.jsa.MANAFONT, hpp = math.random(50, 80) },
+            { id = xi.jsa.CHAINSPELL, hpp = math.random(50, 80) },
         },
     })
 
@@ -58,7 +58,8 @@ entity.onMobEngaged = function(mob, target)
 
     mob:setMobMod(xi.mobMod.NO_MOVE, 0)
     mob:setLocalVar("changeTime", 0)
-    local firstCast = { 144, 149, 154, 164, 169 }
+
+    local firstCast = { 25, 221, 157, 164, 162 }
     mob:castSpell(firstCast[math.random(#firstCast)])
 end
 
