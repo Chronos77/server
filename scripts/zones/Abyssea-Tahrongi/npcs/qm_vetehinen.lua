@@ -2,7 +2,7 @@
 -- Zone: Abyssea-Tahrongi
 --  NPC: qm_vetehinen (???)
 -- Spawns Vetehinen
--- !pos 74 .001 -435 45
+-- !pos 76.4331 -0.5382 -435.0262 45
 -----------------------------------
 local ID = zones[xi.zone.ABYSSEA_TAHRONGI]
 -----------------------------------
