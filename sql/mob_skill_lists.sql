@@ -2857,7 +2857,11 @@ INSERT INTO `mob_skill_lists` VALUES ('Minhocao',845,2191); -- desiccation
 INSERT INTO `mob_skill_lists` VALUES ('Minhocao',845,2604); -- gorge
 INSERT INTO `mob_skill_lists` VALUES ('Minhocao',845,2605); -- disgorge
 INSERT INTO `mob_skill_lists` VALUES ('Muscaliet',846,800); -- heat breath
+INSERT INTO `mob_skill_lists` VALUES ('Myrmecoleon',847,276);  -- Sandpit
+INSERT INTO `mob_skill_lists` VALUES ('Myrmecoleon',847,278);  -- Pit Ambush
+INSERT INTO `mob_skill_lists` VALUES ('Myrmecoleon',847,279);  -- Mandibular Bite
 INSERT INTO `mob_skill_lists` VALUES ('Myrmecoleon',847,2516); -- gravitic horn
+INSERT INTO `mob_skill_lists` VALUES ('Myrmecoleon',847,2517); -- Quake Blast
 INSERT INTO `mob_skill_lists` VALUES ('Ophanim',848,437); -- death ray
 INSERT INTO `mob_skill_lists` VALUES ('Ophanim',848,438); -- hex eye
 -- INSERT INTO `mob_skill_lists` VALUES ('Ophanim',848,439); -- petro gaze
