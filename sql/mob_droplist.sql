@@ -5893,14 +5893,7 @@ INSERT INTO `mob_droplist` VALUES (705,0,0,1000,4784,20);       -- Scroll Of Fir
 INSERT INTO `mob_droplist` VALUES (705,0,0,1000,4812,@VRARE);   -- Scroll Of Flare (Very Rare, 1%)
 
 -- ZoneID: 215 - Drekavac
-INSERT INTO `mob_droplist` VALUES (706,0,0,1000,4387,140);        -- Wild Onion (14.0%)
-INSERT INTO `mob_droplist` VALUES (706,0,0,1000,654,@UNCOMMON);   -- Darksteel Ingot (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (706,0,0,1000,898,@UNCOMMON);   -- Chicken Bone (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (706,0,0,1000,2951,@UNCOMMON);  -- Piece Of Malachite (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (706,0,0,1000,5455,@UNCOMMON);  -- Ahtapot (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (706,0,0,1000,17855,@UNCOMMON); -- Ney (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (706,0,0,1000,745,80);          -- Gold Ingot (8.0%)
-INSERT INTO `mob_droplist` VALUES (706,0,0,1000,887,@RARE);       -- Coral Fragment (Rare, 5%)
+INSERT INTO `mob_droplist` VALUES (706,0,0,1000,17855,@VCOMMON); -- Ney (Very Common, 24%)
 
 -- ZoneID: 167 - Drexerion The Condemned
 INSERT INTO `mob_droplist` VALUES (707,0,0,1000,13912,@COMMON);   -- Shadow Mask (Common, 15%)
@@ -7974,25 +7967,25 @@ INSERT INTO `mob_droplist` VALUES (976,0,0,1000,529,30);  -- Luminicloth (3.0%)
 INSERT INTO `mob_droplist` VALUES (976,2,0,1000,825,0);   -- Square Of Cotton Cloth (Steal)
 
 -- ZoneID: 215 - Gieremund
-INSERT INTO `mob_droplist` VALUES (977,0,0,1000,3110,620);     -- Ravagers Seal Head (62.0%)
-INSERT INTO `mob_droplist` VALUES (977,0,0,1000,18456,560);    -- Yoshihiro (56.0%)
-INSERT INTO `mob_droplist` VALUES (977,0,0,1000,3123,550);     -- Lancers Seal Head (55.0%)
-INSERT INTO `mob_droplist` VALUES (977,0,0,1000,3115,440);     -- Raiders Seal Head (44.0%)
-INSERT INTO `mob_droplist` VALUES (977,0,0,1000,3128,430);     -- Charis Seal Head (43.0%)
-INSERT INTO `mob_droplist` VALUES (977,0,0,1000,3110,310);     -- Ravagers Seal Head (31.0%)
-INSERT INTO `mob_droplist` VALUES (977,0,0,1000,3123,270);     -- Lancers Seal Head (27.0%)
-INSERT INTO `mob_droplist` VALUES (977,0,0,1000,3115,220);     -- Raiders Seal Head (22.0%)
-INSERT INTO `mob_droplist` VALUES (977,0,0,1000,3110,210);     -- Ravagers Seal Head (21.0%)
-INSERT INTO `mob_droplist` VALUES (977,0,0,1000,3128,210);     -- Charis Seal Head (21.0%)
-INSERT INTO `mob_droplist` VALUES (977,0,0,1000,3123,180);     -- Lancers Seal Head (18.0%)
-INSERT INTO `mob_droplist` VALUES (977,0,0,1000,3110,@COMMON); -- Ravagers Seal Head (Common, 15%)
-INSERT INTO `mob_droplist` VALUES (977,0,0,1000,3115,@COMMON); -- Raiders Seal Head (Common, 15%)
-INSERT INTO `mob_droplist` VALUES (977,0,0,1000,3123,140);     -- Lancers Seal Head (14.0%)
-INSERT INTO `mob_droplist` VALUES (977,0,0,1000,3128,140);     -- Charis Seal Head (14.0%)
-INSERT INTO `mob_droplist` VALUES (977,0,0,1000,3110,120);     -- Ravagers Seal Head (12.0%)
-INSERT INTO `mob_droplist` VALUES (977,0,0,1000,3115,110);     -- Raiders Seal Head (11.0%)
-INSERT INTO `mob_droplist` VALUES (977,0,0,1000,3128,110);     -- Charis Seal Head (11.0%)
-INSERT INTO `mob_droplist` VALUES (977,0,0,1000,3128,90);      -- Charis Seal Head (9.0%)
+INSERT INTO `mob_droplist` VALUES (977,0,0,1000,18456,@VCOMMON); -- Yoshihiro (Very Common, 24%)
+INSERT INTO `mob_droplist` VALUES (977,0,0,1000,3110,@VCOMMON);  -- Ravagers Seal Head (Very Common, 24%)
+INSERT INTO `mob_droplist` VALUES (977,0,0,1000,3110,@COMMON);   -- Ravagers Seal Head (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (977,0,0,1000,3110,@UNCOMMON); -- Ravagers Seal Head (Uncommon, 10%)
+INSERT INTO `mob_droplist` VALUES (977,0,0,1000,3110,@RARE);     -- Ravagers Seal Head (Rare, 5%)
+INSERT INTO `mob_droplist` VALUES (977,0,0,1000,3110,@RARE);     -- Ravagers Seal Head (Rare, 5%)
+INSERT INTO `mob_droplist` VALUES (977,0,0,1000,3128,@VCOMMON);  -- Charis Seal Head (Very Common, 24%)
+INSERT INTO `mob_droplist` VALUES (977,0,0,1000,3128,@COMMON);   -- Charis Seal Head (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (977,0,0,1000,3128,@UNCOMMON); -- Charis Seal Head (Uncommon, 10%)
+INSERT INTO `mob_droplist` VALUES (977,0,0,1000,3128,@RARE);     -- Charis Seal Head (Rare, 5%)
+INSERT INTO `mob_droplist` VALUES (977,0,0,1000,3128,@RARE);     -- Charis Seal Head (Rare, 5%)
+INSERT INTO `mob_droplist` VALUES (977,0,0,1000,3123,@VCOMMON);  -- Lancers Seal Head (Very Common, 24%)
+INSERT INTO `mob_droplist` VALUES (977,0,0,1000,3123,@COMMON);   -- Lancers Seal Head (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (977,0,0,1000,3123,@UNCOMMON); -- Lancers Seal Head (Uncommon, 10%)
+INSERT INTO `mob_droplist` VALUES (977,0,0,1000,3123,@RARE);     -- Lancers Seal Head (Rare, 5%)
+INSERT INTO `mob_droplist` VALUES (977,0,0,1000,3115,@VCOMMON);  -- Raiders Seal Head (Very Common, 24%)
+INSERT INTO `mob_droplist` VALUES (977,0,0,1000,3115,@COMMON);   -- Raiders Seal Head (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (977,0,0,1000,3115,@UNCOMMON); -- Raiders Seal Head (Uncommon, 10%)
+INSERT INTO `mob_droplist` VALUES (977,0,0,1000,3115,@RARE);     -- Raiders Seal Head (Rare, 5%)
 
 -- ZoneID: 132 - Gigadaphnia
 -- ZoneID: 132 - Gigadaphnia
@@ -11656,20 +11649,19 @@ INSERT INTO `mob_droplist` VALUES (1434,0,0,1000,3197,30);         -- Bale Seal 
 
 -- ZoneID: 215 - Kharon
 INSERT INTO `mob_droplist` VALUES (1435,0,0,1000,19056,@UNCOMMON); -- Elementa Grip (Uncommon, 10%)
-
-INSERT INTO `mob_droplist` VALUES (1435,0,0,1000,3120,470);  -- Sylvan Seal Head (47.0%)
-INSERT INTO `mob_droplist` VALUES (1435,0,0,1000,3124,430);  -- Callers Seal Head (43.0%)
-INSERT INTO `mob_droplist` VALUES (1435,0,0,1000,3118,340);  -- Ferine Seal Head (34.0%)
-INSERT INTO `mob_droplist` VALUES (1435,0,0,1000,3120,230);  -- Sylvan Seal Head (23.0%)
-INSERT INTO `mob_droplist` VALUES (1435,0,0,1000,3125,230);  -- Mavi Seal Head (23.0%)
-INSERT INTO `mob_droplist` VALUES (1435,0,0,1000,3124,220);  -- Callers Seal Head (22.0%)
-INSERT INTO `mob_droplist` VALUES (1435,0,0,1000,3118,170);  -- Ferine Seal Head (17.0%)
-INSERT INTO `mob_droplist` VALUES (1435,0,0,1000,3120,160);  -- Sylvan Seal Head (16.0%)
-INSERT INTO `mob_droplist` VALUES (1435,0,0,1000,3124,140);  -- Callers Seal Head (14.0%)
-INSERT INTO `mob_droplist` VALUES (1435,0,0,1000,3120,120);  -- Sylvan Seal Head (12.0%)
-INSERT INTO `mob_droplist` VALUES (1435,0,0,1000,3118,110);  -- Ferine Seal Head (11.0%)
-INSERT INTO `mob_droplist` VALUES (1435,0,0,1000,3125,110);  -- Mavi Seal Head (11.0%)
-INSERT INTO `mob_droplist` VALUES (1435,0,0,1000,3125,80);   -- Mavi Seal Head (8.0%)
+INSERT INTO `mob_droplist` VALUES (1435,0,0,1000,3120,@VCOMMON);   -- Sylvan Seal Head (Very Common, 24%)
+INSERT INTO `mob_droplist` VALUES (1435,0,0,1000,3120,@COMMON);    -- Sylvan Seal Head (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (1435,0,0,1000,3120,@UNCOMMON);  -- Sylvan Seal Head (Uncommon, 10%)
+INSERT INTO `mob_droplist` VALUES (1435,0,0,1000,3120,@RARE);      -- Sylvan Seal Head (Rare, 5%)
+INSERT INTO `mob_droplist` VALUES (1435,0,0,1000,3124,@VCOMMON);   -- Callers Seal Head (Very Common, 24%)
+INSERT INTO `mob_droplist` VALUES (1435,0,0,1000,3124,@COMMON);    -- Callers Seal Head (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (1435,0,0,1000,3124,@UNCOMMON);  -- Callers Seal Head (Uncommon, 10%)
+INSERT INTO `mob_droplist` VALUES (1435,0,0,1000,3118,@VCOMMON);   -- Ferine Seal Head (Very Common, 24%)
+INSERT INTO `mob_droplist` VALUES (1435,0,0,1000,3118,@COMMON);    -- Ferine Seal Head (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (1435,0,0,1000,3118,@UNCOMMON);  -- Ferine Seal Head (Uncommon, 10%)
+INSERT INTO `mob_droplist` VALUES (1435,0,0,1000,3125,@VCOMMON);   -- Mavi Seal Head (Very Common, 24%)
+INSERT INTO `mob_droplist` VALUES (1435,0,0,1000,3125,@COMMON);    -- Mavi Seal Head (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (1435,0,0,1000,3125,@UNCOMMON);  -- Mavi Seal Head (Uncommon, 10%)
 
 -- ZoneID:  77 - Khimaira
 INSERT INTO `mob_droplist` VALUES (1436,0,0,1000,14568,@UNCOMMON); -- Askar Korazin (Uncommon, 10%)
@@ -18279,10 +18271,7 @@ INSERT INTO `mob_droplist` VALUES (2313,0,0,1000,4804,20);     -- Scroll Of Thun
 INSERT INTO `mob_droplist` VALUES (2313,0,0,1000,4820,@VRARE); -- Scroll Of Burst (Very Rare, 1%)
 
 -- ZoneID: 215 - Spuk
-INSERT INTO `mob_droplist` VALUES (2314,0,0,1000,825,610);      -- Square Of Cotton Cloth (61.0%)
-INSERT INTO `mob_droplist` VALUES (2314,0,0,1000,3077,@COMMON); -- Set Of Wailing Rags (Common, 15%)
-INSERT INTO `mob_droplist` VALUES (2314,0,0,1000,940,85);       -- Revival Tree Root (8.5%)
-INSERT INTO `mob_droplist` VALUES (2314,0,0,1000,529,64);       -- Luminicloth (6.4%)
+INSERT INTO `mob_droplist` VALUES (2314,0,0,1000,3077,@UNCOMMON); -- Set Of Wailing Rags (Uncommon, 10%)
 
 -- ZoneID: 196 - Spunkie
 INSERT INTO `mob_droplist` VALUES (2315,0,0,1000,928,340);   -- Pinch Of Bomb Ash (34.0%)
@@ -19028,15 +19017,14 @@ INSERT INTO `mob_droplist` VALUES (2420,0,0,1000,4368,130); -- Two-Leaf Mandrago
 INSERT INTO `mob_droplist` VALUES (2420,2,0,1000,4368,0);   -- Two-Leaf Mandragora Bud (Steal)
 
 -- ZoneID: 215 - Titlacauan
-INSERT INTO `mob_droplist` VALUES (2421,0,0,1000,1299,@UNCOMMON);  -- Fire Bead (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (2421,0,0,1000,3210,@UNCOMMON);  -- Stone Of Vision (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (2421,0,0,1000,3212,@UNCOMMON);  -- Jewel Of Vision (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (2421,0,0,1000,3216,@UNCOMMON);  -- Jewel Of Ardor (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (2421,0,0,1000,3217,@UNCOMMON);  -- Card Of Ardor (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (2421,0,0,1000,18513,@UNCOMMON); -- Barbarus Bhuj (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (2421,0,0,1000,19189,@UNCOMMON); -- Virtus Crossbow (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (2421,0,0,1000,3212,@RARE);      -- Jewel Of Vision (Rare, 5%)
-INSERT INTO `mob_droplist` VALUES (2421,0,0,1000,3212,30);         -- Jewel Of Vision (3.0%)
+INSERT INTO `mob_droplist` VALUES (2421,0,0,1000,19189,@ALWAYS);  -- Virtus Crossbow (Always, 100%)
+INSERT INTO `mob_droplist` VALUES (2421,0,0,1000,18513,@RARE);    -- Barbarus Bhuj (Rare, 5%)
+INSERT INTO `mob_droplist` VALUES (2421,0,0,1000,3212,@ALWAYS);   -- Jewel Of Vision (Always, 100%)
+INSERT INTO `mob_droplist` VALUES (2421,0,0,1000,3212,@VCOMMON);  -- Jewel Of Vision (Very Common, 24%)
+INSERT INTO `mob_droplist` VALUES (2421,0,0,1000,3212,@COMMON);   -- Jewel Of Vision (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (2421,0,0,1000,3210,@VCOMMON);  -- Stone Of Vision (Very Common, 24%)
+INSERT INTO `mob_droplist` VALUES (2421,0,0,1000,3216,@UNCOMMON); -- Jewel Of Ardor (Very Common, 24%)
+INSERT INTO `mob_droplist` VALUES (2421,0,0,1000,3217,@UNCOMMON); -- Card Of Ardor (Very Common, 24%)
 
 -- ZoneID: 140 - Toadstool
 INSERT INTO `mob_droplist` VALUES (2422,0,0,1000,4374,160); -- Sleepshroom (16.0%)
