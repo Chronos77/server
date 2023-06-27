@@ -11130,27 +11130,12 @@ INSERT INTO `mob_droplist` VALUES (1368,0,0,1000,2147,40);      -- Marid Tusk (4
 INSERT INTO `mob_droplist` VALUES (1368,0,0,1000,2147,20);      -- Marid Tusk (2.0%)
 
 -- ZoneID: 215 - Ironclad Cleaver
-INSERT INTO `mob_droplist` VALUES (1369,0,0,1000,11430,@ALWAYS);   -- Tandava Crackows (Always, 100%)
-INSERT INTO `mob_droplist` VALUES (1369,0,0,1000,16208,@ALWAYS);   -- Lancers Pelerine (Always, 100%)
-INSERT INTO `mob_droplist` VALUES (1369,0,0,1000,19254,@ALWAYS);   -- Tantra Tathlum (Always, 100%)
-INSERT INTO `mob_droplist` VALUES (1369,0,0,1000,5564,500);        -- Chunk Of Hydra Meat (50.0%)
-INSERT INTO `mob_droplist` VALUES (1369,0,0,1000,4387,140);        -- Wild Onion (14.0%)
-INSERT INTO `mob_droplist` VALUES (1369,0,0,1000,654,@UNCOMMON);   -- Darksteel Ingot (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (1369,0,0,1000,723,@UNCOMMON);   -- Piece Of Divine Lumber (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (1369,0,0,1000,729,@UNCOMMON);   -- Bloodwood Log (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (1369,0,0,1000,1302,@UNCOMMON);  -- Earth Bead (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (1369,0,0,1000,1303,@UNCOMMON);  -- Lightning Bead (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (1369,0,0,1000,1304,@UNCOMMON);  -- Water Bead (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (1369,0,0,1000,1305,@UNCOMMON);  -- Light Bead (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (1369,0,0,1000,1306,@UNCOMMON);  -- Dark Bead (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (1369,0,0,1000,2703,@UNCOMMON);  -- Square Of Khromated Leather (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (1369,0,0,1000,2951,@UNCOMMON);  -- Piece Of Malachite (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (1369,0,0,1000,3220,@UNCOMMON);  -- Jewel Of Wieldance (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (1369,0,0,1000,3221,@UNCOMMON);  -- Card Of Wieldance (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (1369,0,0,1000,11359,@UNCOMMON); -- Velox Harness (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (1369,0,0,1000,745,80);          -- Gold Ingot (8.0%)
-INSERT INTO `mob_droplist` VALUES (1369,0,0,1000,836,70);          -- Square Of Damascene Cloth (7.0%)
-INSERT INTO `mob_droplist` VALUES (1369,0,0,1000,1303,@RARE);      -- Lightning Bead (Rare, 5%)
+INSERT INTO `mob_droplist` VALUES (1369,0,0,1000,11430,@VCOMMON);   -- Tandava Crackows (Very Common, 24%)
+INSERT INTO `mob_droplist` VALUES (1369,0,0,1000,16208,@VCOMMON);   -- Lancers Pelerine (Very Common, 24%)
+INSERT INTO `mob_droplist` VALUES (1369,0,0,1000,19254,@VCOMMON);   -- Tantra Tathlum (Very Common, 24%)
+INSERT INTO `mob_droplist` VALUES (1369,0,0,1000,11359,@VCOMMON);   -- Velox Harness (Very Common, 24%)
+INSERT INTO `mob_droplist` VALUES (1369,0,0,1000,3220,@VCOMMON);    -- Jewel Of Wieldance (Very Common, 24%)
+INSERT INTO `mob_droplist` VALUES (1369,0,0,1000,3221,@VCOMMON);    -- Card Of Wieldance (Very Common, 24%)
 
 -- ZoneID: 216 - Ironclad Observer
 INSERT INTO `mob_droplist` VALUES (1370,0,0,1000,4377,390);        -- Slice Of Coeurl Meat (39.0%)
@@ -18004,18 +17989,11 @@ INSERT INTO `mob_droplist` VALUES (2275,4,0,1000,2518,0);   -- Smilodon Hide (De
 INSERT INTO `mob_droplist` VALUES (2275,2,0,1000,4372,0);   -- Slice Of Giant Sheep Meat (Steal)
 
 -- ZoneID: 215 - Smok
-INSERT INTO `mob_droplist` VALUES (2276,0,0,1000,11616,@ALWAYS);   -- Bale Choker (Always, 100%)
-INSERT INTO `mob_droplist` VALUES (2276,0,0,1000,16205,@ALWAYS);   -- Sylvan Chlamys (Always, 100%)
-INSERT INTO `mob_droplist` VALUES (2276,0,0,1000,1313,670);        -- Lock Of Sirens Hair (67.0%)
-INSERT INTO `mob_droplist` VALUES (2276,0,0,1000,1313,670);        -- Lock Of Sirens Hair (67.0%)
-INSERT INTO `mob_droplist` VALUES (2276,0,0,1000,5564,500);        -- Chunk Of Hydra Meat (50.0%)
-INSERT INTO `mob_droplist` VALUES (2276,0,0,1000,1740,140);        -- Iolite (14.0%)
-INSERT INTO `mob_droplist` VALUES (2276,0,0,1000,1300,@UNCOMMON);  -- Ice Bead (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (2276,0,0,1000,1301,@UNCOMMON);  -- Wind Bead (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (2276,0,0,1000,3214,@UNCOMMON);  -- Stone Of Ardor (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (2276,0,0,1000,3218,@UNCOMMON);  -- Stone Of Wieldance (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (2276,0,0,1000,11934,@UNCOMMON); -- Cybele Pants (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (2276,0,0,1000,836,70);          -- Square Of Damascene Cloth (7.0%)
+INSERT INTO `mob_droplist` VALUES (2276,0,0,1000,11616,@VCOMMON);   -- Bale Choker (Very Common, 24%)
+INSERT INTO `mob_droplist` VALUES (2276,0,0,1000,16205,@VCOMMON);   -- Sylvan Chlamys (Very Common, 24%)
+INSERT INTO `mob_droplist` VALUES (2276,0,0,1000,3214,@VCOMMON);    -- Stone Of Ardor (Very Common, 24%)
+INSERT INTO `mob_droplist` VALUES (2276,0,0,1000,3218,@VCOMMON);    -- Stone Of Wieldance (Very Common, 24%)
+INSERT INTO `mob_droplist` VALUES (2276,0,0,1000,11934,@VCOMMON);   -- Cybele Pants (Very Common, 24%)
 
 -- ZoneID:  77 - Smothered Schmidt
 INSERT INTO `mob_droplist` VALUES (2277,0,0,1000,825,@VRARE); -- Square Of Cotton Cloth (Very Rare, 1%)
@@ -22006,15 +21984,9 @@ INSERT INTO `mob_droplist` VALUES (2683,0,0,1000,14873,170); -- Bandomusha Kote 
 INSERT INTO `mob_droplist` VALUES (2683,0,0,1000,18002,40);  -- Perseuss Harpe (4.0%)
 
 -- ZoneID: 215 - Yaanei
-INSERT INTO `mob_droplist` VALUES (2684,0,0,1000,11617,@ALWAYS);   -- Ferine Necklace (Always, 100%)
-INSERT INTO `mob_droplist` VALUES (2684,0,0,1000,16204,@ALWAYS);   -- Estoqueurs Cape (Always, 100%)
-INSERT INTO `mob_droplist` VALUES (2684,0,0,1000,4377,390);        -- Slice Of Coeurl Meat (39.0%)
-INSERT INTO `mob_droplist` VALUES (2684,0,0,1000,898,@UNCOMMON);   -- Chicken Bone (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (2684,0,0,1000,1300,@UNCOMMON);  -- Ice Bead (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (2684,0,0,1000,1301,@UNCOMMON);  -- Wind Bead (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (2684,0,0,1000,1303,@UNCOMMON);  -- Lightning Bead (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (2684,0,0,1000,11784,@UNCOMMON); -- Aias Bonnet (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (2684,0,0,1000,1469,80);         -- Chunk Of Wootz Ore (8.0%)
+INSERT INTO `mob_droplist` VALUES (2684,0,0,1000,11617,@VCOMMON);   -- Ferine Necklace (Very Common, 24%)
+INSERT INTO `mob_droplist` VALUES (2684,0,0,1000,16204,@VCOMMON);   -- Estoqueurs Cape (Very Common, 24%)
+INSERT INTO `mob_droplist` VALUES (2684,0,0,1000,11784,@VCOMMON);   -- Aias Bonnet (Very Common, 24%)
 
 -- ZoneID:  98 - Yaa Haqa The Pious
 -- ZoneID:  99 - Yaa Haqa The Pious
@@ -26745,6 +26717,10 @@ INSERT INTO `mob_droplist` VALUES (3283,0,0,1000,11637,@VCOMMON); -- Meridian ri
 INSERT INTO `mob_droplist` VALUES (3283,0,0,1000,3222,@VCOMMON);  -- Balance Stone (Very common, 24%)
 INSERT INTO `mob_droplist` VALUES (3283,0,0,1000,3225,@VCOMMON);  -- Balance Card (Very common, 24%)
 INSERT INTO `mob_droplist` VALUES (3283,0,0,1000,13791,@RARE);    -- Timarli jawshan (Rare, 5%)
+
+-- ZoneID:  215 - Svarbhanu
+INSERT INTO `mob_droplist` VALUES (3284,0,0,1000,19188,@VCOMMON); -- Killer Shortbow (Very common, 24%)
+
 
 /*!40000 ALTER TABLE `mob_droplist` ENABLE KEYS */;
 UNLOCK TABLES;

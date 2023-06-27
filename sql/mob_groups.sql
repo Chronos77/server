@@ -13415,7 +13415,7 @@ INSERT INTO `mob_groups` VALUES (31,3087,215,'Pallid_Percy',0,128,1976,0,0,0,0,0
 INSERT INTO `mob_groups` VALUES (32,1446,215,'Gaizkin',0,128,924,0,0,0,0,0);
 INSERT INTO `mob_groups` VALUES (33,2219,215,'Kharon',0,128,1435,0,0,0,0,0);
 INSERT INTO `mob_groups` VALUES (34,1117,215,'Drekavac',0,128,706,0,0,0,0,0);
-INSERT INTO `mob_groups` VALUES (35,4662,215,'Svarbhanu',0,128,0,0,0,0,0,0);
+INSERT INTO `mob_groups` VALUES (35,3284,215,'Svarbhanu',0,128,0,0,0,0,0,0);
 INSERT INTO `mob_groups` VALUES (36,2183,215,'Kampe',0,128,1423,0,0,0,0,0);
 INSERT INTO `mob_groups` VALUES (37,398,215,'Berstuk',0,128,259,0,999,82,85,0);
 INSERT INTO `mob_groups` VALUES (38,2459,215,'Maahes',0,128,1559,0,0,0,0,0);
