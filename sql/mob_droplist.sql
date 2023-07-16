@@ -12518,18 +12518,15 @@ INSERT INTO `mob_droplist` VALUES (1550,0,0,1000,1446,30); -- Lacquer Tree Log (
 INSERT INTO `mob_droplist` VALUES (1550,2,0,1000,920,0);   -- Malboro Vine (Steal)
 
 -- ZoneID: 215 - Lusca
-INSERT INTO `mob_droplist` VALUES (1551,0,0,1000,2703,@UNCOMMON);  -- Square Of Khromated Leather (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (1551,0,0,1000,3211,@UNCOMMON);  -- Coin Of Vision (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (1551,0,0,1000,3213,@UNCOMMON);  -- Card Of Vision (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (1551,0,0,1000,3214,@UNCOMMON);  -- Stone Of Ardor (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (1551,0,0,1000,3217,@UNCOMMON);  -- Card Of Ardor (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (1551,0,0,1000,19130,@UNCOMMON); -- Clement Skean (Uncommon, 10%)
+INSERT INTO `mob_droplist` VALUES (1551,0,0,1000,19130,@RARE); -- Clement Skean (Rare, 5%)
 INSERT INTO `mob_droplist` VALUES (1551,0,0,1000,19167,@UNCOMMON); -- Khloros Blade (Uncommon, 10%)
-INSERT INTO `mob_droplist` VALUES (1551,0,0,1000,1469,80);         -- Chunk Of Wootz Ore (8.0%)
-INSERT INTO `mob_droplist` VALUES (1551,0,0,1000,3211,@RARE);      -- Coin Of Vision (Rare, 5%)
-INSERT INTO `mob_droplist` VALUES (1551,0,0,1000,3213,@RARE);      -- Card Of Vision (Rare, 5%)
-INSERT INTO `mob_droplist` VALUES (1551,0,0,1000,3213,30);         -- Card Of Vision (3.0%)
-INSERT INTO `mob_droplist` VALUES (1551,0,0,1000,1312,@VRARE);     -- Piece Of Angel Skin (Very Rare, 1%)
+INSERT INTO `mob_droplist` VALUES (1551,0,0,1000,3213,@ALWAYS);  -- Card Of Vision (Always, 100%)
+INSERT INTO `mob_droplist` VALUES (1551,0,0,1000,3213,@VCOMMON);  -- Card Of Vision (Very Common, 24%)
+INSERT INTO `mob_droplist` VALUES (1551,0,0,1000,3213,@VCOMMON);  -- Card Of Vision (Very Common, 24%)
+INSERT INTO `mob_droplist` VALUES (1551,0,0,1000,3211,@VCOMMON);  -- Coin Of Vision (Very Common, 24%)
+INSERT INTO `mob_droplist` VALUES (1551,0,0,1000,3211,@VCOMMON);  -- Coin Of Vision (Very Common, 24%)
+INSERT INTO `mob_droplist` VALUES (1551,0,0,1000,3214,@UNCOMMON);  -- Stone Of Ardor (Uncommon, 10%)
+INSERT INTO `mob_droplist` VALUES (1551,0,0,1000,3217,@VCOMMON);  -- Card Of Ardor (Very Common, 24%)
 
 -- ZoneID:  84 - Lycopodium
 INSERT INTO `mob_droplist` VALUES (1552,0,0,1000,2507,90); -- Lycopodium Flower (9.0%)
