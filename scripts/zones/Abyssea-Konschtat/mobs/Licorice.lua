@@ -3,7 +3,6 @@
 --  Mob: Licorice
 -- Note: PH for Guimauve
 -----------------------------------
-require("scripts/globals/zone")
 require("scripts/globals/mobs")
 -----------------------------------
 local entity = {}

@@ -7,6 +7,13 @@ require('scripts/globals/abyssea')
 g_mixins = g_mixins or {}
 
 g_mixins.abyssea_weakness = function(mob)
+    local setClaimed = function(mobArg, player)
+        local claimed = mobArg:getLocalVar("[ClaimedBy]")
+        if claimed == 0 then
+            mobArg:setLocalVar("[ClaimedBy]", player:getID())
+        end
+    end
+
     if mob:isNM() then
         mob:addListener('SPAWN', 'ABYSSEA_WEAKNESS_SPAWN', function(mobArg)
             mobArg:setLocalVar('[CanProc]', 1)
@@ -18,14 +25,12 @@ g_mixins.abyssea_weakness = function(mob)
             mobArg:setLocalVar('[AbysseaBlueProc]', 0)
         end)
 
-        mob:addListener('ATTACKED', 'ATTACKED_ABYSSEA_CHECK_CLAIM', function(mobArg, player, action)
-            local claimed = mobArg:getLocalVar('[ClaimedBy]')
-            if claimed == 0 then
-                mobArg:setLocalVar('[ClaimedBy]', player:getID())
-            end
+        mob:addListener("ATTACKED", "ATTACKED_ABYSSEA_CHECK_CLAIM", function(mobArg, player, action)
+            setClaimed(mobArg, player)
         end)
 
-        mob:addListener('MAGIC_TAKE', 'ABYSSEA_MAGIC_PROC_CHECK', function(target, caster, spell)
+        mob:addListener("MAGIC_TAKE", "ABYSSEA_MAGIC_PROC_CHECK", function(target, caster, spell)
+            setClaimed(target, caster)
             if target:canChangeState() then
                 if spell:getID() == target:getLocalVar('[YellowWeakness]') then
                     xi.abyssea.procMonster(target, caster, xi.abyssea.triggerType.YELLOW)
@@ -33,7 +38,8 @@ g_mixins.abyssea_weakness = function(mob)
             end
         end)
 
-        mob:addListener('WEAPONSKILL_TAKE', 'ABYSSEA_WS_PROC_CHECK', function(target, user, wsid)
+        mob:addListener("WEAPONSKILL_TAKE", "ABYSSEA_WS_PROC_CHECK", function(target, user, wsid)
+            setClaimed(target, user)
             if target:canChangeState() then
                 if wsid == target:getLocalVar('[RedWeakness]') then
                     xi.abyssea.procMonster(target, user, xi.abyssea.triggerType.RED)
