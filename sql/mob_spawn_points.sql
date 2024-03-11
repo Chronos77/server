@@ -85249,8 +85249,7 @@ INSERT INTO `mob_spawn_points` VALUES (17973561,'Ou','Ou',73,0.000,0.000,0.000,0
 -- ------------------------------------------------------------
 
 -- The Orb's Radiance
-INSERT INTO `mob_spawn_points` VALUES (17977399,'Cloud_of_Darkness','Cloud of Darkness',1,500.000,-530.840,500.000,64);
-INSERT INTO `mob_spawn_points` VALUES (17977400,'Darkness','Darkness',2,0.000,0.000,0.000,0);
+INSERT INTO `mob_spawn_points` VALUES (17977400,'Cloud_of_Darkness','Cloud of Darkness',1,500.000,-530.840,500.000,64);
 INSERT INTO `mob_spawn_points` VALUES (17977401,'Darkness','Darkness',2,0.000,0.000,0.000,0);
 INSERT INTO `mob_spawn_points` VALUES (17977402,'Darkness','Darkness',2,0.000,0.000,0.000,0);
 INSERT INTO `mob_spawn_points` VALUES (17977403,'Darkness','Darkness',2,0.000,0.000,0.000,0);
@@ -85260,9 +85259,9 @@ INSERT INTO `mob_spawn_points` VALUES (17977406,'Darkness','Darkness',2,0.000,0.
 INSERT INTO `mob_spawn_points` VALUES (17977407,'Darkness','Darkness',2,0.000,0.000,0.000,0);
 INSERT INTO `mob_spawn_points` VALUES (17977408,'Darkness','Darkness',2,0.000,0.000,0.000,0);
 INSERT INTO `mob_spawn_points` VALUES (17977409,'Darkness','Darkness',2,0.000,0.000,0.000,0);
-INSERT INTO `mob_spawn_points` VALUES (17977410,'Iroha','Iroha',3,0.000,0.000,0.000,0);
-INSERT INTO `mob_spawn_points` VALUES (17977411,'Cloud_of_Darkness','Cloud of Darkness',1,0.000,0.000,0.000,0);
-INSERT INTO `mob_spawn_points` VALUES (17977412,'Darkness','Darkness',2,0.000,0.000,0.000,0);
+INSERT INTO `mob_spawn_points` VALUES (17977410,'Darkness','Darkness',2,0.000,0.000,0.000,0);
+INSERT INTO `mob_spawn_points` VALUES (17977411,'Iroha','Iroha',3,0.000,0.000,0.000,0);
+INSERT INTO `mob_spawn_points` VALUES (17977412,'Cloud_of_Darkness','Cloud of Darkness',1,0.000,0.000,0.000,0);
 INSERT INTO `mob_spawn_points` VALUES (17977413,'Darkness','Darkness',2,0.000,0.000,0.000,0);
 INSERT INTO `mob_spawn_points` VALUES (17977414,'Darkness','Darkness',2,0.000,0.000,0.000,0);
 INSERT INTO `mob_spawn_points` VALUES (17977415,'Darkness','Darkness',2,0.000,0.000,0.000,0);
@@ -85272,9 +85271,9 @@ INSERT INTO `mob_spawn_points` VALUES (17977418,'Darkness','Darkness',2,0.000,0.
 INSERT INTO `mob_spawn_points` VALUES (17977419,'Darkness','Darkness',2,0.000,0.000,0.000,0);
 INSERT INTO `mob_spawn_points` VALUES (17977420,'Darkness','Darkness',2,0.000,0.000,0.000,0);
 INSERT INTO `mob_spawn_points` VALUES (17977421,'Darkness','Darkness',2,0.000,0.000,0.000,0);
-INSERT INTO `mob_spawn_points` VALUES (17977422,'Iroha','Iroha',3,0.000,0.000,0.000,0);
-INSERT INTO `mob_spawn_points` VALUES (17977423,'Cloud_of_Darkness','Cloud of Darkness',1,0.000,0.000,0.000,0);
-INSERT INTO `mob_spawn_points` VALUES (17977424,'Darkness','Darkness',2,0.000,0.000,0.000,0);
+INSERT INTO `mob_spawn_points` VALUES (17977422,'Darkness','Darkness',2,0.000,0.000,0.000,0);
+INSERT INTO `mob_spawn_points` VALUES (17977423,'Iroha','Iroha',3,0.000,0.000,0.000,0);
+INSERT INTO `mob_spawn_points` VALUES (17977424,'Cloud_of_Darkness','Cloud of Darkness',1,0.000,0.000,0.000,0);
 INSERT INTO `mob_spawn_points` VALUES (17977425,'Darkness','Darkness',2,0.000,0.000,0.000,0);
 INSERT INTO `mob_spawn_points` VALUES (17977426,'Darkness','Darkness',2,0.000,0.000,0.000,0);
 INSERT INTO `mob_spawn_points` VALUES (17977427,'Darkness','Darkness',2,0.000,0.000,0.000,0);
@@ -85284,35 +85283,36 @@ INSERT INTO `mob_spawn_points` VALUES (17977430,'Darkness','Darkness',2,0.000,0.
 INSERT INTO `mob_spawn_points` VALUES (17977431,'Darkness','Darkness',2,0.000,0.000,0.000,0);
 INSERT INTO `mob_spawn_points` VALUES (17977432,'Darkness','Darkness',2,0.000,0.000,0.000,0);
 INSERT INTO `mob_spawn_points` VALUES (17977433,'Darkness','Darkness',2,0.000,0.000,0.000,0);
-INSERT INTO `mob_spawn_points` VALUES (17977434,'Iroha','Iroha',3,0.000,0.000,0.000,0);
+INSERT INTO `mob_spawn_points` VALUES (17977434,'Darkness','Darkness',2,0.000,0.000,0.000,0);
+INSERT INTO `mob_spawn_points` VALUES (17977435,'Iroha','Iroha',3,0.000,0.000,0.000,0);
 
 -- Letter from Iroha
-INSERT INTO `mob_spawn_points` VALUES (17977435,'Iroha','Iroha',4,0.000,0.000,0.000,0);
 INSERT INTO `mob_spawn_points` VALUES (17977436,'Iroha','Iroha',4,0.000,0.000,0.000,0);
 INSERT INTO `mob_spawn_points` VALUES (17977437,'Iroha','Iroha',4,0.000,0.000,0.000,0);
+INSERT INTO `mob_spawn_points` VALUES (17977438,'Iroha','Iroha',4,0.000,0.000,0.000,0);
 
 -- Letter from Reisenjima
-INSERT INTO `mob_spawn_points` VALUES (17977438,'Iroha','Iroha',5,0.000,0.000,0.000,0);
-INSERT INTO `mob_spawn_points` VALUES (17977439,'Iroha','Iroha',6,0.000,0.000,0.000,0);
-INSERT INTO `mob_spawn_points` VALUES (17977440,'Lion','Lion',7,0.000,0.000,0.000,0);
-INSERT INTO `mob_spawn_points` VALUES (17977441,'Prishe','Prishe',8,0.000,0.000,0.000,0);
-INSERT INTO `mob_spawn_points` VALUES (17977442,'Nashmeira','Nashmeira',9,0.000,0.000,0.000,0);
-INSERT INTO `mob_spawn_points` VALUES (17977443,'Lilisette','Lilisette',10,0.000,0.000,0.000,0);
-INSERT INTO `mob_spawn_points` VALUES (17977444,'Arciela','Arciela',11,0.000,0.000,0.000,0);
-INSERT INTO `mob_spawn_points` VALUES (17977445,'Iroha','Iroha',5,0.000,0.000,0.000,0);
-INSERT INTO `mob_spawn_points` VALUES (17977446,'Iroha','Iroha',6,0.000,0.000,0.000,0);
-INSERT INTO `mob_spawn_points` VALUES (17977447,'Lion','Lion',7,0.000,0.000,0.000,0);
-INSERT INTO `mob_spawn_points` VALUES (17977448,'Prishe','Prishe',8,0.000,0.000,0.000,0);
-INSERT INTO `mob_spawn_points` VALUES (17977449,'Nashmeira','Nashmeira',9,0.000,0.000,0.000,0);
-INSERT INTO `mob_spawn_points` VALUES (17977450,'Lilisette','Lilisette',10,0.000,0.000,0.000,0);
-INSERT INTO `mob_spawn_points` VALUES (17977451,'Arciela','Arciela',11,0.000,0.000,0.000,0);
-INSERT INTO `mob_spawn_points` VALUES (17977452,'Iroha','Iroha',5,0.000,0.000,0.000,0);
-INSERT INTO `mob_spawn_points` VALUES (17977453,'Iroha','Iroha',6,0.000,0.000,0.000,0);
-INSERT INTO `mob_spawn_points` VALUES (17977454,'Lion','Lion',7,0.000,0.000,0.000,0);
-INSERT INTO `mob_spawn_points` VALUES (17977455,'Prishe','Prishe',8,0.000,0.000,0.000,0);
-INSERT INTO `mob_spawn_points` VALUES (17977456,'Nashmeira','Nashmeira',9,0.000,0.000,0.000,0);
-INSERT INTO `mob_spawn_points` VALUES (17977457,'Lilisette','Lilisette',10,0.000,0.000,0.000,0);
-INSERT INTO `mob_spawn_points` VALUES (17977458,'Arciela','Arciela',11,0.000,0.000,0.000,0);
+INSERT INTO `mob_spawn_points` VALUES (17977439,'Iroha','Iroha',5,0.000,0.000,0.000,0);
+INSERT INTO `mob_spawn_points` VALUES (17977440,'Iroha','Iroha',6,0.000,0.000,0.000,0);
+INSERT INTO `mob_spawn_points` VALUES (17977441,'Lion','Lion',7,0.000,0.000,0.000,0);
+INSERT INTO `mob_spawn_points` VALUES (17977442,'Prishe','Prishe',8,0.000,0.000,0.000,0);
+INSERT INTO `mob_spawn_points` VALUES (17977443,'Nashmeira','Nashmeira',9,0.000,0.000,0.000,0);
+INSERT INTO `mob_spawn_points` VALUES (17977444,'Lilisette','Lilisette',10,0.000,0.000,0.000,0);
+INSERT INTO `mob_spawn_points` VALUES (17977445,'Arciela','Arciela',11,0.000,0.000,0.000,0);
+INSERT INTO `mob_spawn_points` VALUES (17977446,'Iroha','Iroha',5,0.000,0.000,0.000,0);
+INSERT INTO `mob_spawn_points` VALUES (17977447,'Iroha','Iroha',6,0.000,0.000,0.000,0);
+INSERT INTO `mob_spawn_points` VALUES (17977448,'Lion','Lion',7,0.000,0.000,0.000,0);
+INSERT INTO `mob_spawn_points` VALUES (17977449,'Prishe','Prishe',8,0.000,0.000,0.000,0);
+INSERT INTO `mob_spawn_points` VALUES (17977450,'Nashmeira','Nashmeira',9,0.000,0.000,0.000,0);
+INSERT INTO `mob_spawn_points` VALUES (17977451,'Lilisette','Lilisette',10,0.000,0.000,0.000,0);
+INSERT INTO `mob_spawn_points` VALUES (17977452,'Arciela','Arciela',11,0.000,0.000,0.000,0);
+INSERT INTO `mob_spawn_points` VALUES (17977453,'Iroha','Iroha',5,0.000,0.000,0.000,0);
+INSERT INTO `mob_spawn_points` VALUES (17977454,'Iroha','Iroha',6,0.000,0.000,0.000,0);
+INSERT INTO `mob_spawn_points` VALUES (17977455,'Lion','Lion',7,0.000,0.000,0.000,0);
+INSERT INTO `mob_spawn_points` VALUES (17977456,'Prishe','Prishe',8,0.000,0.000,0.000,0);
+INSERT INTO `mob_spawn_points` VALUES (17977457,'Nashmeira','Nashmeira',9,0.000,0.000,0.000,0);
+INSERT INTO `mob_spawn_points` VALUES (17977458,'Lilisette','Lilisette',10,0.000,0.000,0.000,0);
+INSERT INTO `mob_spawn_points` VALUES (17977459,'Arciela','Arciela',11,0.000,0.000,0.000,0);
 
 -- ------------------------------------------------------------
 -- Dynamis-San d'Oria [D] (Zone 294)
