@@ -1101,7 +1101,7 @@ INSERT INTO `mob_spawn_points` VALUES (16798027,'Nightmare_Bats','Nightmare Bats
 INSERT INTO `mob_spawn_points` VALUES (16798028,'Nightmare_Bats','Nightmare Bats',29,-232.594,-36.283,-140.618,135);
 INSERT INTO `mob_spawn_points` VALUES (16798029,'Mountain_Worm','Mountain Worm',42,-267.339,-37.646,-141.238,1);
 INSERT INTO `mob_spawn_points` VALUES (16798030,'Mountain_Worm','Mountain Worm',42,-202.226,-30.116,-179.173,0);
-INSERT INTO `mob_spawn_points` VALUES (16798031,'Mountain_Worm','Mountain Worm',48,-269.816,-79.023,18.257,3);
+INSERT INTO `mob_spawn_points` VALUES (16798031,'Mountain_Worm_NM','Mountain Worm',48,-269.816,-79.023,18.257,3);
 INSERT INTO `mob_spawn_points` VALUES (16798032,'Mindgazer','Mindgazer',43,-357.572,-21.631,-58.661,122);
 INSERT INTO `mob_spawn_points` VALUES (16798033,'Mindgazer','Mindgazer',43,-339.627,-13.594,-35.626,184);
 INSERT INTO `mob_spawn_points` VALUES (16798034,'Mindgazer','Mindgazer',43,-338.259,-7.443,-13.892,56);
