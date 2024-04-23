@@ -63231,7 +63231,7 @@ INSERT INTO `mob_spawn_points` VALUES (17514497,'Ark_Angel_HM','Ark Angel HM',1,
 INSERT INTO `mob_spawn_points` VALUES (17514498,'Ark_Angel_HM','Ark Angel HM',1,-562.545,-242.667,56.191,44);
 INSERT INTO `mob_spawn_points` VALUES (17514499,'Ark_Angel_HM','Ark Angel HM',1,477.435,-317.667,78.895,44);
 
--- Ark Angels 2 (ZM14)
+-- Ark Angels 3 (ZM14)
 INSERT INTO `mob_spawn_points` VALUES (17514500,'Ark_Angel_MR','Ark Angel MR',2,-13.833,-18.716,13.796,44);
 INSERT INTO `mob_spawn_points` VALUES (17514501,'Ark_Angel_MR','Ark Angel MR',2,-562.545,-242.667,56.191,44);
 INSERT INTO `mob_spawn_points` VALUES (17514502,'Ark_Angel_MR','Ark Angel MR',2,477.435,-317.667,78.895,44);
@@ -63242,12 +63242,12 @@ INSERT INTO `mob_spawn_points` VALUES (17514506,'Ark_Angels_Mandragora','Ark Ang
 INSERT INTO `mob_spawn_points` VALUES (17514507,'Ark_Angels_Mandragora','Ark Angel\'s Mandragora',4,-564.299,-242.667,57.740,0);
 INSERT INTO `mob_spawn_points` VALUES (17514508,'Ark_Angels_Mandragora','Ark Angel\'s Mandragora',4,475.681,-317.667,80.444,0);
 
--- Ark Angels 3 (ZM14)
+-- Ark Angels 4 (ZM14)
 INSERT INTO `mob_spawn_points` VALUES (17514509,'Ark_Angel_EV','Ark Angel EV',5,-13.833,-18.716,13.796,43);
 INSERT INTO `mob_spawn_points` VALUES (17514510,'Ark_Angel_EV','Ark Angel EV',5,-562.545,-242.667,56.191,43);
 INSERT INTO `mob_spawn_points` VALUES (17514511,'Ark_Angel_EV','Ark Angel EV',5,477.435,-317.667,78.895,43);
 
--- Ark Angels 4 (ZM14)
+-- Ark Angels 2 (ZM14)
 INSERT INTO `mob_spawn_points` VALUES (17514512,'Ark_Angel_TT','Ark Angel TT',6,-13.833,-18.716,13.796,46);
 INSERT INTO `mob_spawn_points` VALUES (17514513,'Ark_Angel_TT','Ark Angel TT',6,-562.545,-242.667,56.191,46);
 INSERT INTO `mob_spawn_points` VALUES (17514514,'Ark_Angel_TT','Ark Angel TT',6,477.435,-317.667,78.895,46);
