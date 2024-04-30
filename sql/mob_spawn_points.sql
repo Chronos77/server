@@ -27445,7 +27445,7 @@ INSERT INTO `mob_spawn_points` VALUES (17150043,'Poison_Leech','Poison Leech',17
 INSERT INTO `mob_spawn_points` VALUES (17150044,'Goblin_Draftee','Goblin Draftee',22,225.330,-30.390,-267.990,179);
 INSERT INTO `mob_spawn_points` VALUES (17150045,'Scabrous_Slug','Scabrous Slug',21,209.040,-33.060,-182.740,235);
 INSERT INTO `mob_spawn_points` VALUES (17150046,'Scabrous_Slug','Scabrous Slug',21,169.810,-32.150,-163.930,124);
-INSERT INTO `mob_spawn_points` VALUES (17150047,'Dyinyinga','Dyinyinga',23,0.000,0.000,0.000,0);
+INSERT INTO `mob_spawn_points` VALUES (17150047,'Dyinyinga','Dyinyinga',23,176.06,-31.94,-204.13,240);
 INSERT INTO `mob_spawn_points` VALUES (17150048,'Scabrous_Slug','Scabrous Slug',21,253.290,-31.220,-243.190,19);
 INSERT INTO `mob_spawn_points` VALUES (17150049,'Water_Elemental','Water Elemental',24,240.390,-32.430,-244.400,232);
 INSERT INTO `mob_spawn_points` VALUES (17150050,'Goblin_Patrolman','Goblin Patrolman',18,252.730,-20.610,-345.260,132);

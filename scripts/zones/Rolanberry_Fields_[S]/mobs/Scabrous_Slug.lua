@@ -1,7 +1,7 @@
 -----------------------------------
 -- Area: Rolanberry Fields [S]
---  Mob: Death Jacket
--- Note: PH for Erle
+--  Mob: Scabrous Slug
+-- Note: PH for Dyinyanga
 -----------------------------------
 local ID = zones[xi.zone.ROLANBERRY_FIELDS_S]
 -----------------------------------
@@ -13,10 +13,10 @@ end
 entity.onMobDespawn = function(mob)
     local phTable =
     {
-        [ID.mob.ERLE - 6] = ID.mob.ERLE,
+        [ID.mob.DYINYINGA - 1] = ID.mob.DYINYINGA,
     }
 
-    xi.mob.phOnDespawn(mob, phTable, 10, 5400) -- 1.5 hour
+    xi.mob.phOnDespawn(mob, phTable, 10, 3600) -- 1 hour
 end
 
 return entity
