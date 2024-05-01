@@ -40142,7 +40142,7 @@ INSERT INTO `mob_spawn_points` VALUES (17248319,'Savanna_Rarab','Savanna Rarab',
 INSERT INTO `mob_spawn_points` VALUES (17248320,'Carrion_Crow','Carrion Crow',11,95.000,-1.000,-128.000,127);
 INSERT INTO `mob_spawn_points` VALUES (17248321,'Carrion_Crow','Carrion Crow',11,67.748,-0.632,-230.707,101);
 INSERT INTO `mob_spawn_points` VALUES (17248322,'Carrion_Crow','Carrion Crow',11,121.173,-1.140,-99.807,127);
-INSERT INTO `mob_spawn_points` VALUES (17248323,'Carrion_Crow','Carrion Crow',11,-95.000,-17.000,383.000,62);
+INSERT INTO `mob_spawn_points` VALUES (17248323,'Carrion_Crow','Carrion Crow',11,75.683,-0.807,-166.390,62);
 INSERT INTO `mob_spawn_points` VALUES (17248324,'Goblin_Thug','Goblin Thug',12,111.537,-0.873,-106.274,35);
 INSERT INTO `mob_spawn_points` VALUES (17248325,'Goblin_Thug','Goblin Thug',12,68.281,-0.238,-205.215,127);
 INSERT INTO `mob_spawn_points` VALUES (17248326,'Goblin_Weaver','Goblin Weaver',13,77.567,-0.470,-114.337,2);
