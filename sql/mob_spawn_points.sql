@@ -39204,12 +39204,12 @@ INSERT INTO `mob_spawn_points` VALUES (17236170,'Lost_Soul','Lost Soul',2,-203.0
 INSERT INTO `mob_spawn_points` VALUES (17236171,'Etemmu','Etemmu',3,-201.098,-4.082,17.762,65);
 INSERT INTO `mob_spawn_points` VALUES (17236172,'Etemmu','Etemmu',3,-205.500,-4.216,-61.530,127);
 INSERT INTO `mob_spawn_points` VALUES (17236173,'Etemmu','Etemmu',3,-188.468,-3.805,37.832,127);
-INSERT INTO `mob_spawn_points` VALUES (17236174,'Evil_Eye','Evil Eye',4,-254.799,-15.003,-8.120,127);
-INSERT INTO `mob_spawn_points` VALUES (17236175,'Evil_Eye','Evil Eye',4,-240.218,-12.523,42.568,46);
-INSERT INTO `mob_spawn_points` VALUES (17236176,'Evil_Eye','Evil Eye',4,-245.251,-11.741,106.221,67);
-INSERT INTO `mob_spawn_points` VALUES (17236177,'Evil_Eye','Evil Eye',4,-217.075,-8.306,51.115,127);
-INSERT INTO `mob_spawn_points` VALUES (17236178,'Evil_Eye','Evil Eye',4,-234.354,-11.492,63.501,12);
-INSERT INTO `mob_spawn_points` VALUES (17236179,'Evil_Eye','Evil Eye',4,-390.274,-42.630,20.932,127);
+INSERT INTO `mob_spawn_points` VALUES (17236174,'Evil_Eye','Evil Eye',4,-237.997,-12.559,36.987,47);
+INSERT INTO `mob_spawn_points` VALUES (17236175,'Evil_Eye','Evil Eye',4,-216.724,-7.61,35.211,232);
+INSERT INTO `mob_spawn_points` VALUES (17236176,'Evil_Eye','Evil Eye',4,-233.593,-11.914,9.169,38);
+INSERT INTO `mob_spawn_points` VALUES (17236177,'Evil_Eye','Evil Eye',4,-255.674,-14.83,-17.943,184);
+INSERT INTO `mob_spawn_points` VALUES (17236178,'Evil_Eye','Evil Eye',4,-236.923,-12.164,-33.878,93);
+INSERT INTO `mob_spawn_points` VALUES (17236179,'Evil_Eye','Evil Eye',4,-242.547,-11.594,16.76,126);
 INSERT INTO `mob_spawn_points` VALUES (17236180,'Shadow_Eye','Shadow Eye',24,-238.000,-12.000,83.000,127);
 INSERT INTO `mob_spawn_points` VALUES (17236181,'Demon_Pawn','Demon Pawn',10,-228.561,-10.890,-127.956,63);
 INSERT INTO `mob_spawn_points` VALUES (17236182,'Demon_Pawn','Demon Pawn',10,-283.275,-20.379,-81.644,108);
