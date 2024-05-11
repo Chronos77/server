@@ -1,9 +1,8 @@
 -----------------------------------
 -- Area: Waughroon Shrine
---  Mob: Rasetsu
--- a Thief in Norg BCNM Fight
+--  Mob: Ayakashi
 -----------------------------------
-mixins = { require('scripts/mixins/job_special') }
+mixins = { require('scripts/mixins/families/avatar') }
 -----------------------------------
 local entity = {}
 

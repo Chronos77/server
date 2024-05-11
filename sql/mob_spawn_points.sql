@@ -51628,20 +51628,20 @@ INSERT INTO `mob_spawn_points` VALUES (17367057,'DaShu_Knightslayer','Da\'Shu Kn
 INSERT INTO `mob_spawn_points` VALUES (17367058,'GoBha_Slaughterer','Go\'Bha Slaughterer',6,221.194,-59.900,136.246,128);
 
 -- A Thief in Norg!?
-INSERT INTO `mob_spawn_points` VALUES (17367059,'Gaki','Gaki',7,-177.000,60.000,-144.000,130);
-INSERT INTO `mob_spawn_points` VALUES (17367060,'Rasetsu','Rasetsu',8,-177.000,60.000,-142.000,130);
-INSERT INTO `mob_spawn_points` VALUES (17367061,'Onki','Onki',9,-177.000,60.000,-140.000,130);
-INSERT INTO `mob_spawn_points` VALUES (17367062,'Onibi','Onibi',10,1.000,1.000,1.000,130);
-INSERT INTO `mob_spawn_points` VALUES (17367063,'Ayakashi','Ayakashi',11,0.000,0.000,0.000,0);
-INSERT INTO `mob_spawn_points` VALUES (17367064,'Gaki','Gaki',7,23.274,0.000,15.964,130);
-INSERT INTO `mob_spawn_points` VALUES (17367065,'Rasetsu','Rasetsu',8,23.274,0.000,17.964,130);
-INSERT INTO `mob_spawn_points` VALUES (17367066,'Onki','Onki',9,23.274,0.000,19.964,130);
-INSERT INTO `mob_spawn_points` VALUES (17367067,'Onibi','Onibi',10,201.274,-59.000,160.964,130);
-INSERT INTO `mob_spawn_points` VALUES (17367068,'Ayakashi','Ayakashi',11,0.000,0.000,0.000,0);
-INSERT INTO `mob_spawn_points` VALUES (17367069,'Gaki','Gaki',7,223.224,-60.000,135.946,130);
-INSERT INTO `mob_spawn_points` VALUES (17367070,'Rasetsu','Rasetsu',8,223.224,-60.000,137.946,130);
-INSERT INTO `mob_spawn_points` VALUES (17367071,'Onki','Onki',9,223.224,-60.000,139.946,130);
-INSERT INTO `mob_spawn_points` VALUES (17367072,'Onibi','Onibi',10,401.224,-119.000,280.946,130);
+INSERT INTO `mob_spawn_points` VALUES (17367059,'Gaki','Gaki',7,-177.354,59.769,-144.000,130);
+INSERT INTO `mob_spawn_points` VALUES (17367060,'Rasetsu','Rasetsu',8,-177.354,59.696,-142.000,130);
+INSERT INTO `mob_spawn_points` VALUES (17367061,'Onki','Onki',9,-177.354,59.770,-140.000,130);
+INSERT INTO `mob_spawn_points` VALUES (17367062,'Onibi','Onibi',10,-177.352,59.770,-139.998,130);
+INSERT INTO `mob_spawn_points` VALUES (17367063,'Ayakashi','Ayakashi',11,-182.116,59.641,-139.434,0);
+INSERT INTO `mob_spawn_points` VALUES (17367064,'Gaki','Gaki',7,22.646,-0.230,15.982,130);
+INSERT INTO `mob_spawn_points` VALUES (17367065,'Rasetsu','Rasetsu',8,22.646,-0.304,17.982,130);
+INSERT INTO `mob_spawn_points` VALUES (17367066,'Onki','Onki',9,22.646,-0.230,19.982,130);
+INSERT INTO `mob_spawn_points` VALUES (17367067,'Onibi','Onibi',10,22.646,-0.230,19.982,130);
+INSERT INTO `mob_spawn_points` VALUES (17367068,'Ayakashi','Ayakashi',11,18.130,-0.202,17.401,0);
+INSERT INTO `mob_spawn_points` VALUES (17367069,'Gaki','Gaki',7,222.641,-60.230,136.000,130);
+INSERT INTO `mob_spawn_points` VALUES (17367070,'Rasetsu','Rasetsu',8,222.641,-60.303,138.000,130);
+INSERT INTO `mob_spawn_points` VALUES (17367071,'Onki','Onki',9,222.641,-60.229,140.000,130);
+INSERT INTO `mob_spawn_points` VALUES (17367072,'Onibi','Onibi',10,222.641,-60.229,140.001,130);
 INSERT INTO `mob_spawn_points` VALUES (17367073,'Ayakashi','Ayakashi',11,0.000,0.000,0.000,0);
 
 -- Shattering Stars
