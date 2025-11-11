@@ -336,7 +336,7 @@ xi.summon.avatarFinalAdjustments = function(dmg, mob, skill, target, skilltype, 
     end
 
     -- Calculate Blood Pact Damage before stoneskin
-    dmg = math.floor(dmg + dmg * mob:getMod(xi.mod.BP_DAMAGE) / 100)
+    dmg = math.floor(dmg * xi.settings.main.BP_DAMAGE_RATE + dmg * mob:getMod(xi.mod.BP_DAMAGE) / 100)
 
     if dmg < 0 then
         return dmg

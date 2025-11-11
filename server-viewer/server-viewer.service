@@ -1,0 +1,20 @@
+[Unit]
+Description=Server Viewer - Interface web unifiée pour visualiser les logs et les mobs/NMs
+After=network.target
+Wants=network.target
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=5
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/home/ubuntu/projects/server/server-viewer
+Environment="PATH=/usr/bin:/usr/local/bin"
+ExecStart=/usr/bin/node /home/ubuntu/projects/server/server-viewer/server.js
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
+

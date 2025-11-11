@@ -56,12 +56,17 @@ zones[xi.zone.PORT_JEUNO] =
         KINDLIX_SHOP_DIALOG           = 8695, -- Our fam'ly peddle sky flowers. You want have nice scenery? Send fireworks sky high! It's great feeling. Bwee hee hee.
         PYROPOX_SHOP_DIALOG           = 8699, -- Bwee hee. I get fireworks from all 'round globe. Kindlix never sell more than me.
         STRANGE_DEVICE                = 9413, -- There is a strange device here.
+
+        OBORO_NO_AURA                 = 8821, -- Hm, I could have sworn that inscrutable aura was emanating from you, but I suppose I was mistaken. Feel free to exit my line of sight at any time, plebeian.
+        OBORO_CURIOUS_ORDNANCE        = 8822, -- What curious ordnance you carry. My hairs are standing on end just from being in its proximity.
+        OBORO_ONE_DAY                 = 8857, -- One day is but all I need to work my magic. Feel free to get your hopes up in the meantime, too.
     },
     mob =
     {
     },
     npc =
     {
+        OBORO = GetFirstID('Oboro'),
     },
 }
 

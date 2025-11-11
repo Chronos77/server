@@ -46,6 +46,7 @@
 #include "packets/s2c/0x01f_item_list.h"
 #include "packets/s2c/0x020_item_attr.h"
 #include "packets/s2c/0x026_item_subcontainer.h"
+#include "packets/s2c/0x02a_talknumwork.h"
 #include "packets/s2c/0x02d_battle_message2.h"
 #include "packets/s2c/0x050_equip_list.h"
 #include "packets/s2c/0x051_grap_list.h"
@@ -5514,21 +5515,30 @@ void AddExperiencePoints(bool expFromRaise, CCharEntity* PChar, CBaseEntity* PMo
         uint16 Pzone = PChar->getZone();
         if (zoneutils::GetCurrentRegion(Pzone) == REGION_TYPE::ABYSSEA)
         {
-            uint16 TextID = luautils::GetTextIDVariable(Pzone, "CRUOR_OBTAINED");
-            // uint32 Total  = charutils::GetPoints(PChar, "cruor");
-            // uint32 Cruor  = 0; // Need to work out how to do cruor chains, until then no cruor will drop unless this line is customized for non retail play.
-
-            if (TextID == 0)
+            // Cruor is only awarded when an experience chain is active
+            // Cruor formula: base cruor = exp / 5, but only if chain is active
+            if (mobCheck >= EMobDifficulty::EvenMatch && isexpchain && exp > 0)
             {
-                ShowWarning("Failed to fetch Cruor Message ID for zone: %i", Pzone);
-            }
+                uint16 TextID = luautils::GetTextIDVariable(Pzone, "CRUOR_OBTAINED");
 
-            // TODO: Implement this once formula for Cruor attainment is implemented
-            // if (Cruor >= 1)
-            // {
-            //     PChar->pushPacket<CMessageSpecialPacket>(PChar, TextID, Cruor, Total + Cruor, 0, 0);
-            //     charutils::AddPoints(PChar, "cruor", Cruor);
-            // }
+                if (TextID == 0)
+                {
+                    ShowWarning("Failed to fetch Cruor Message ID for zone: %i", Pzone);
+                }
+                else
+                {
+                    // Calculate cruor: exp / 5 (rounded down)
+                    uint32 cruorAmount = exp / 5;
+                    uint32 totalCruor  = charutils::GetPoints(PChar, "cruor");
+
+                    if (cruorAmount >= 1)
+                    {
+                        // Send message: "Obtained <cruorAmount> cruor. (Total: <totalCruor + cruorAmount>)"
+                        PChar->pushPacket<GP_SERV_COMMAND_TALKNUMWORK>(PChar, TextID, cruorAmount, totalCruor + cruorAmount, 0, 0, false);
+                        charutils::AddPoints(PChar, "cruor", cruorAmount);
+                    }
+                }
+            }
         }
     }
 

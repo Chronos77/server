@@ -28958,6 +28958,50 @@ INSERT INTO `mob_droplist` VALUES (3411,1,5,@VCOMMON,14577,250); -- Valhalla Bre
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
+-- ZoneID: 217 - Pascerpot -- TODO: Abyssea NM
+INSERT INTO `mob_droplist` VALUES (3101,0,0,1000,19060,@UNCOMMON); -- Lux Grip (Uncommon, 10%)
+INSERT INTO `mob_droplist` VALUES (3101,1,1,@ALWAYS,3191,250);     -- Tantra Seal Feet (Group 1, Always, 100%)
+INSERT INTO `mob_droplist` VALUES (3101,1,1,@ALWAYS,3196,250);     -- Creed Seal Feet (Group 1, Always, 100%)
+INSERT INTO `mob_droplist` VALUES (3101,1,1,@ALWAYS,3202,250);     -- Iga Seal Feet (Group 1, Always, 100%)
+INSERT INTO `mob_droplist` VALUES (3101,1,1,@ALWAYS,3206,250);     -- Navarchs Seal Feet (Group 1, Always, 100%)
+INSERT INTO `mob_droplist` VALUES (3101,1,2,@UNCOMMON,3191,250);   -- Tantra Seal Feet (Group 2, Uncommon, 10%)
+INSERT INTO `mob_droplist` VALUES (3101,1,2,@UNCOMMON,3196,250);   -- Creed Seal Feet (Group 2, Uncommon, 10%)
+INSERT INTO `mob_droplist` VALUES (3101,1,2,@UNCOMMON,3202,250);   -- Iga Seal Feet (Group 2, Uncommon, 10%)
+INSERT INTO `mob_droplist` VALUES (3101,1,2,@UNCOMMON,3206,250);   -- Navarchs Seal Feet (Group 2, Uncommon, 10%)
+
+-- ZoneID: 215 - Svarbhanu -- TODO: Abyssea NM
+INSERT INTO `mob_droplist` VALUES (4662,0,0,1000,11652,@UNCOMMON); -- Veil Ring (Uncommon, 10%)
+INSERT INTO `mob_droplist` VALUES (4662,1,1,@ALWAYS,3114,250);     -- Estoqueurs Seal Head (Group 1, Always, 100%)
+INSERT INTO `mob_droplist` VALUES (4662,1,1,@ALWAYS,3115,250);     -- Raiders Seal Head (Group 1, Always, 100%)
+INSERT INTO `mob_droplist` VALUES (4662,1,1,@ALWAYS,3116,250);     -- Creed Seal Head (Group 1, Always, 100%)
+INSERT INTO `mob_droplist` VALUES (4662,1,1,@ALWAYS,3121,250);     -- Unkai Seal Head (Group 1, Always, 100%)
+INSERT INTO `mob_droplist` VALUES (4662,1,2,@UNCOMMON,3114,250);   -- Estoqueurs Seal Head (Group 2, Uncommon, 10%)
+INSERT INTO `mob_droplist` VALUES (4662,1,2,@UNCOMMON,3115,250);   -- Raiders Seal Head (Group 2, Uncommon, 10%)
+INSERT INTO `mob_droplist` VALUES (4662,1,2,@UNCOMMON,3116,250);   -- Creed Seal Head (Group 2, Uncommon, 10%)
+INSERT INTO `mob_droplist` VALUES (4662,1,2,@UNCOMMON,3121,250);   -- Unkai Seal Head (Group 2, Uncommon, 10%)
+
+-- ZoneID: 215 - Tejas -- TODO: Abyssea NM
+INSERT INTO `mob_droplist` VALUES (3861,0,0,1000,11699,@UNCOMMON); -- Lifestone Earring (Uncommon, 10%)
+INSERT INTO `mob_droplist` VALUES (3861,1,1,@ALWAYS,3111,250);     -- Tantra Seal Head (Group 1, Always, 100%)
+INSERT INTO `mob_droplist` VALUES (3861,1,1,@ALWAYS,3115,250);     -- Raiders Seal Head (Group 1, Always, 100%)
+INSERT INTO `mob_droplist` VALUES (3861,1,1,@ALWAYS,3122,250);     -- Iga Seal Head (Group 1, Always, 100%)
+INSERT INTO `mob_droplist` VALUES (3861,1,1,@ALWAYS,3128,250);     -- Charis Seal Head (Group 1, Always, 100%)
+INSERT INTO `mob_droplist` VALUES (3861,1,2,@UNCOMMON,3111,250);   -- Tantra Seal Head (Group 2, Uncommon, 10%)
+INSERT INTO `mob_droplist` VALUES (3861,1,2,@UNCOMMON,3115,250);   -- Raiders Seal Head (Group 2, Uncommon, 10%)
+INSERT INTO `mob_droplist` VALUES (3861,1,2,@UNCOMMON,3122,250);   -- Iga Seal Head (Group 2, Uncommon, 10%)
+INSERT INTO `mob_droplist` VALUES (3861,1,2,@UNCOMMON,3128,250);   -- Charis Seal Head (Group 2, Uncommon, 10%)
+
+-- ZoneID: 215 - Eseuvhi -- TODO: Abyssea NM
+INSERT INTO `mob_droplist` VALUES (3412,0,0,1000,11700,@UNCOMMON); -- Mana Earring (Uncommon, 10%)
+INSERT INTO `mob_droplist` VALUES (3412,1,1,@ALWAYS,3113,250);     -- Goetia Seal Head (Group 1, Always, 100%)
+INSERT INTO `mob_droplist` VALUES (3412,1,1,@ALWAYS,3117,250);     -- Bale Seal Head (Group 1, Always, 100%)
+INSERT INTO `mob_droplist` VALUES (3412,1,1,@ALWAYS,3124,250);     -- Callers Seal Head (Group 1, Always, 100%)
+INSERT INTO `mob_droplist` VALUES (3412,1,1,@ALWAYS,3129,250);     -- Savants Seal Head (Group 1, Always, 100%)
+INSERT INTO `mob_droplist` VALUES (3412,1,2,@UNCOMMON,3113,250);   -- Goetia Seal Head (Group 2, Uncommon, 10%)
+INSERT INTO `mob_droplist` VALUES (3412,1,2,@UNCOMMON,3117,250);   -- Bale Seal Head (Group 2, Uncommon, 10%)
+INSERT INTO `mob_droplist` VALUES (3412,1,2,@UNCOMMON,3124,250);   -- Callers Seal Head (Group 2, Uncommon, 10%)
+INSERT INTO `mob_droplist` VALUES (3412,1,2,@UNCOMMON,3129,250);   -- Savants Seal Head (Group 2, Uncommon, 10%)
+
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
 /*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;

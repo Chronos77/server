@@ -21,7 +21,7 @@ xi.magian.trials =
             itemId = xi.item.PEELER,
         },
 
-        textOffset  = 1,
+        textOffset  = 371,
         numRequired = 3,
 
         rewardItem =
@@ -38,7 +38,7 @@ xi.magian.trials =
             itemId = xi.item.RENEGADE,
         },
 
-        textOffset  = 2,
+        textOffset  = 371,
         numRequired = 3,
 
         rewardItem =
@@ -63,7 +63,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 3,
+        textOffset  = 371,
         numRequired = 3,
 
         rewardItem =
@@ -88,7 +88,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 43,
+        textOffset  = 371,
         numRequired = 4,
 
         rewardItem =
@@ -105,7 +105,7 @@ xi.magian.trials =
             itemId       = xi.item.KARTIKA,
         },
 
-        textOffset  = 44,
+        textOffset  = 371,
         numRequired = 4,
 
         rewardItem =
@@ -130,7 +130,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 45,
+        textOffset  = 371,
         numRequired = 4,
 
         rewardItem =
@@ -155,7 +155,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 46,
+        textOffset  = 371,
         numRequired = 6,
 
         rewardItem =
@@ -180,7 +180,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 47,
+        textOffset  = 371,
         numRequired = 6,
 
         rewardItem =
@@ -205,7 +205,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset   = 68,
+        textOffset  = 371,
         defeatMob    = true,
         mobEcosystem = xi.ecosystem.ARCANA,
         numRequired  = 400,
@@ -224,7 +224,7 @@ xi.magian.trials =
             itemId = xi.item.ATHAME,
         },
 
-        textOffset  = 69,
+        textOffset  = 371,
         mobFamily   = set{ 140, 141 },
         numRequired = 300,
 
@@ -250,7 +250,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 70,
+        textOffset  = 371,
         tradeItem   = xi.item.EYE_OF_VERTHANDI,
         numRequired = 10,
 
@@ -278,7 +278,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset   = 71,
+        textOffset  = 371,
         defeatMob    = true,
         mobEcosystem = xi.ecosystem.AMORPH,
         numRequired  = 500,
@@ -305,7 +305,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset   = 72,
+        textOffset  = 371,
         defeatMob    = true,
         mobEcosystem = xi.ecosystem.PLANTOID,
         numRequired  = 600,
@@ -328,7 +328,7 @@ xi.magian.trials =
             itemId = xi.item.PUGILISTS,
         },
 
-        textOffset  = 4,
+        textOffset  = 371,
         numRequired = 3,
 
         rewardItem =
@@ -345,7 +345,7 @@ xi.magian.trials =
             itemId = xi.item.SIMIAN_FISTS,
         },
 
-        textOffset  = 5,
+        textOffset  = 371,
         numRequired = 3,
 
         rewardItem =
@@ -370,7 +370,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 6,
+        textOffset  = 371,
         numRequired = 3,
 
         rewardItem =
@@ -395,7 +395,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 48,
+        textOffset  = 371,
         numRequired = 4,
 
         rewardItem =
@@ -412,7 +412,7 @@ xi.magian.trials =
             itemId = xi.item.MANTIS,
         },
 
-        textOffset  = 49,
+        textOffset  = 371,
         numRequired = 4,
 
         rewardItem =
@@ -437,7 +437,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 50,
+        textOffset  = 371,
         numRequired = 4,
 
         rewardItem =
@@ -462,7 +462,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 51,
+        textOffset  = 371,
         numRequired = 6,
 
         rewardItem =
@@ -487,7 +487,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 52,
+        textOffset  = 371,
         numRequired = 6,
 
         rewardItem =
@@ -528,7 +528,7 @@ xi.magian.trials =
             itemId = xi.item.SIDE_SWORD,
         },
 
-        textOffset  = 7,
+        textOffset  = 371,
         numRequired = 3,
 
         rewardItem =
@@ -545,7 +545,7 @@ xi.magian.trials =
             itemId = xi.item.SCHIAVONA,
         },
 
-        textOffset  = 8,
+        textOffset  = 371,
         numRequired = 3,
 
         rewardItem =
@@ -570,7 +570,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 9,
+        textOffset  = 371,
         numRequired = 3,
 
         rewardItem =
@@ -595,7 +595,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 53,
+        textOffset  = 371,
         numRequired = 4,
 
         rewardItem =
@@ -612,7 +612,7 @@ xi.magian.trials =
             itemId = xi.item.NOBILIS,
         },
 
-        textOffset  = 54,
+        textOffset  = 371,
         numRequired = 4,
 
         rewardItem =
@@ -637,7 +637,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 55,
+        textOffset  = 371,
         numRequired = 4,
 
         rewardItem =
@@ -708,7 +708,7 @@ xi.magian.trials =
             itemId = xi.item.BREAK_BLADE,
         },
 
-        textOffset  = 10,
+        textOffset  = 371,
         numRequired = 3,
 
         rewardItem =
@@ -725,7 +725,7 @@ xi.magian.trials =
             itemId = xi.item.SUNBLADE,
         },
 
-        textOffset  = 11,
+        textOffset  = 371,
         numRequired = 3,
 
         rewardItem =
@@ -750,7 +750,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 12,
+        textOffset  = 371,
         numRequired = 3,
 
         rewardItem =
@@ -867,7 +867,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 62,
+        textOffset  = 371,
         numRequired = 6,
 
         rewardItem =
@@ -888,7 +888,7 @@ xi.magian.trials =
             itemId = xi.item.CHOPPER,
         },
 
-        textOffset  = 13,
+        textOffset  = 371,
         numRequired = 3,
 
         rewardItem =
@@ -905,7 +905,7 @@ xi.magian.trials =
             itemId = xi.item.SPLINTER,
         },
 
-        textOffset  = 14,
+        textOffset  = 371,
         numRequired = 3,
 
         rewardItem =
@@ -930,7 +930,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 15,
+        textOffset  = 371,
         numRequired = 3,
 
         rewardItem =
@@ -955,7 +955,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 48,
+        textOffset  = 371,
         numRequired = 4,
 
         rewardItem =
@@ -972,7 +972,7 @@ xi.magian.trials =
             itemId = xi.item.BONEBITER,
         },
 
-        textOffset  = 49,
+        textOffset  = 371,
         numRequired = 4,
 
         rewardItem =
@@ -997,7 +997,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 50,
+        textOffset  = 371,
         numRequired = 4,
 
         rewardItem =
@@ -1022,7 +1022,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 51,
+        textOffset  = 371,
         numRequired = 6,
 
         rewardItem =
@@ -1047,7 +1047,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 52,
+        textOffset  = 371,
         numRequired = 6,
 
         rewardItem =
@@ -1068,7 +1068,7 @@ xi.magian.trials =
             itemId = xi.item.LUMBERJACK,
         },
 
-        textOffset  = 16,
+        textOffset  = 371,
         numRequired = 3,
 
         rewardItem =
@@ -1085,7 +1085,7 @@ xi.magian.trials =
             itemId = xi.item.SAGARIS,
         },
 
-        textOffset  = 17,
+        textOffset  = 371,
         numRequired = 3,
 
         rewardItem =
@@ -1110,7 +1110,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 18,
+        textOffset  = 371,
         numRequired = 3,
 
         rewardItem =
@@ -1135,7 +1135,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 53,
+        textOffset  = 371,
         numRequired = 4,
 
         rewardItem =
@@ -1152,7 +1152,7 @@ xi.magian.trials =
             itemId = xi.item.BONESPLITTER,
         },
 
-        textOffset  = 54,
+        textOffset  = 371,
         numRequired = 4,
 
         rewardItem =
@@ -1177,7 +1177,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 55,
+        textOffset  = 371,
         numRequired = 4,
 
         rewardItem =
@@ -1248,7 +1248,7 @@ xi.magian.trials =
             itemId = xi.item.RANSEUR,
         },
 
-        textOffset  = 19,
+        textOffset  = 371,
         numRequired = 3,
 
         rewardItem =
@@ -1265,7 +1265,7 @@ xi.magian.trials =
             itemId = xi.item.COPPERHEAD,
         },
 
-        textOffset  = 20,
+        textOffset  = 371,
         numRequired = 3,
 
         rewardItem =
@@ -1290,7 +1290,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 21,
+        textOffset  = 371,
         numRequired = 3,
 
         rewardItem =
@@ -1315,7 +1315,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 48,
+        textOffset  = 371,
         numRequired = 4,
 
         rewardItem =
@@ -1332,7 +1332,7 @@ xi.magian.trials =
             itemId = xi.item.OATHKEEPER,
         },
 
-        textOffset  = 49,
+        textOffset  = 371,
         numRequired = 4,
 
         rewardItem =
@@ -1357,7 +1357,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 50,
+        textOffset  = 371,
         numRequired = 4,
 
         rewardItem =
@@ -1382,7 +1382,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 51,
+        textOffset  = 371,
         numRequired = 6,
 
         rewardItem =
@@ -1407,7 +1407,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 52,
+        textOffset  = 371,
         numRequired = 6,
 
         rewardItem =
@@ -1428,7 +1428,7 @@ xi.magian.trials =
             itemId = xi.item.FARMHAND,
         },
 
-        textOffset  = 22,
+        textOffset  = 371,
         numRequired = 3,
 
         rewardItem =
@@ -1445,7 +1445,7 @@ xi.magian.trials =
             itemId = xi.item.STIGMA,
         },
 
-        textOffset  = 23,
+        textOffset  = 371,
         numRequired = 3,
 
         rewardItem =
@@ -1470,7 +1470,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 24,
+        textOffset  = 371,
         numRequired = 3,
 
         rewardItem =
@@ -1495,7 +1495,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 43,
+        textOffset  = 371,
         numRequired = 4,
 
         rewardItem =
@@ -1512,7 +1512,7 @@ xi.magian.trials =
             itemId = xi.item.ULTIMATUM,
         },
 
-        textOffset  = 44,
+        textOffset  = 371,
         numRequired = 4,
 
         rewardItem =
@@ -1537,7 +1537,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 45,
+        textOffset  = 371,
         numRequired = 4,
 
         rewardItem =
@@ -1562,7 +1562,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 46,
+        textOffset  = 371,
         numRequired = 6,
 
         rewardItem =
@@ -1587,7 +1587,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 47,
+        textOffset  = 371,
         numRequired = 6,
 
         rewardItem =
@@ -1608,7 +1608,7 @@ xi.magian.trials =
             itemId = xi.item.KIBASHIRI,
         },
 
-        textOffset  = 25,
+        textOffset  = 371,
         numRequired = 3,
 
         rewardItem =
@@ -1625,7 +1625,7 @@ xi.magian.trials =
             itemId = xi.item.KORURI,
         },
 
-        textOffset  = 26,
+        textOffset  = 371,
         numRequired = 3,
 
         rewardItem =
@@ -1650,7 +1650,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 27,
+        textOffset  = 371,
         numRequired = 3,
 
         rewardItem =
@@ -1675,7 +1675,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 53,
+        textOffset  = 371,
         numRequired = 4,
 
         rewardItem =
@@ -1692,7 +1692,7 @@ xi.magian.trials =
             itemId = xi.item.MOZU,
         },
 
-        textOffset  = 54,
+        textOffset  = 371,
         numRequired = 4,
 
         rewardItem =
@@ -1717,7 +1717,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 55,
+        textOffset  = 371,
         numRequired = 4,
 
         rewardItem =
@@ -1788,7 +1788,7 @@ xi.magian.trials =
             itemId = xi.item.DONTO,
         },
 
-        textOffset  = 28,
+        textOffset  = 371,
         numRequired = 3,
 
         rewardItem =
@@ -1805,7 +1805,7 @@ xi.magian.trials =
             itemId = xi.item.SHIRODACHI,
         },
 
-        textOffset  = 29,
+        textOffset  = 371,
         numRequired = 3,
 
         rewardItem =
@@ -1830,7 +1830,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 30,
+        textOffset  = 371,
         numRequired = 3,
 
         rewardItem =
@@ -1947,7 +1947,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 62,
+        textOffset  = 371,
         numRequired = 6,
 
         rewardItem =
@@ -1968,7 +1968,7 @@ xi.magian.trials =
             itemId = xi.item.STENZ,
         },
 
-        textOffset  = 31,
+        textOffset  = 371,
         numRequired = 3,
 
         rewardItem =
@@ -1985,7 +1985,7 @@ xi.magian.trials =
             itemId = xi.item.RAGEBLOW,
         },
 
-        textOffset  = 32,
+        textOffset  = 371,
         numRequired = 3,
 
         rewardItem =
@@ -2010,7 +2010,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 33,
+        textOffset  = 371,
         numRequired = 3,
 
         rewardItem =
@@ -2127,7 +2127,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 62,
+        textOffset  = 371,
         numRequired = 6,
 
         rewardItem =
@@ -2148,7 +2148,7 @@ xi.magian.trials =
             itemId = xi.item.CROOK,
         },
 
-        textOffset  = 34,
+        textOffset  = 371,
         numRequired = 3,
 
         rewardItem =
@@ -2165,7 +2165,7 @@ xi.magian.trials =
             itemId = xi.item.SHILLELAGH,
         },
 
-        textOffset  = 35,
+        textOffset  = 371,
         numRequired = 3,
 
         rewardItem =
@@ -2190,7 +2190,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 36,
+        textOffset  = 371,
         numRequired = 3,
 
         rewardItem =
@@ -2215,7 +2215,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 63,
+        textOffset  = 371,
         numRequired = 4,
 
         rewardItem =
@@ -2232,7 +2232,7 @@ xi.magian.trials =
             itemId = xi.item.SLAINE,
         },
 
-        textOffset  = 64,
+        textOffset  = 371,
         numRequired = 4,
 
         rewardItem =
@@ -2257,7 +2257,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 65,
+        textOffset  = 371,
         numRequired = 4,
 
         rewardItem =
@@ -2282,7 +2282,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 66,
+        textOffset  = 371,
         numRequired = 6,
 
         rewardItem =
@@ -2307,7 +2307,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 67,
+        textOffset  = 371,
         numRequired = 6,
 
         rewardItem =
@@ -2345,7 +2345,7 @@ xi.magian.trials =
             itemId = xi.item.BLUE_STEEL,
         },
 
-        textOffset  = 38,
+        textOffset  = 371,
         numRequired = 3,
 
         rewardItem =
@@ -2370,7 +2370,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 39,
+        textOffset  = 371,
         numRequired = 3,
 
         rewardItem =
@@ -2395,7 +2395,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 43,
+        textOffset  = 371,
         numRequired = 4,
 
         rewardItem =
@@ -2412,7 +2412,7 @@ xi.magian.trials =
             itemId = xi.item.MAGNATUS,
         },
 
-        textOffset  = 44,
+        textOffset  = 371,
         numRequired = 4,
 
         rewardItem =
@@ -2437,7 +2437,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 45,
+        textOffset  = 371,
         numRequired = 4,
 
         rewardItem =
@@ -2462,7 +2462,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 46,
+        textOffset  = 371,
         numRequired = 6,
 
         rewardItem =
@@ -2487,7 +2487,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 47,
+        textOffset  = 371,
         numRequired = 6,
 
         rewardItem =
@@ -2508,7 +2508,7 @@ xi.magian.trials =
             itemId = xi.item.SPARROW,
         },
 
-        textOffset  = 40,
+        textOffset  = 371,
         numRequired = 3,
 
         rewardItem =
@@ -2525,7 +2525,7 @@ xi.magian.trials =
             itemId = xi.item.KESTREL,
         },
 
-        textOffset  = 41,
+        textOffset  = 371,
         numRequired = 3,
 
         rewardItem =
@@ -2550,7 +2550,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 42,
+        textOffset  = 371,
         numRequired = 3,
 
         rewardItem =
@@ -2667,7 +2667,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 62,
+        textOffset  = 371,
         numRequired = 6,
 
         rewardItem =
@@ -4510,7 +4510,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 70,
+        textOffset  = 371,
         tradeItem   = xi.item.TWO_LEAF_CHLORIS_BUD,
         numRequired = 50,
 
@@ -4532,7 +4532,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 70,
+        textOffset  = 371,
         tradeItem   = xi.item.COIN_OF_ADVANCEMENT,
         numRequired = 15,
 
@@ -4639,6 +4639,28 @@ xi.magian.trials =
             {
                 [1] = { 45, 12 }, -- DMG:+13
             },
+        },
+    },
+
+    [1355] = -- Ukonvasara 80
+    {
+        previousTrial = 1354,
+        requiredItem  =
+        {
+            itemId       = xi.item.BONESPLITTER,
+            itemAugments =
+            {
+                [1] = { 45, 12 }, -- DMG:+13
+            },
+        },
+
+        textOffset  = 418,
+        numRequired = 50,
+        tradeItem   = xi.item.GLAVOID_SHELL,
+
+        rewardItem =
+        {
+            itemId       = xi.item.UKONVASARA
         },
     },
 
@@ -4814,6 +4836,28 @@ xi.magian.trials =
             {
                 [1] = { 45, 7 }, -- DMG:+8
             },
+        },
+    },
+
+    [1759] =
+    {
+        previousTrial = 1758,
+        requiredItem  =
+        {
+            itemId       = xi.item.MAGNATUS,
+            itemAugments =
+            {
+                [1] = { 45, 7 }, -- DMG:+8
+            },
+        },
+
+        textOffset  = 1329,
+        tradeItem   = xi.item.CARABOSSES_GEM,
+        numRequired = 50,
+
+        rewardItem =
+        {
+            itemId       = xi.item.ARMAGEDDON,
         },
     },
 
@@ -6297,7 +6341,7 @@ xi.magian.trials =
             itemId = xi.item.VERETHRAGNA,
         },
 
-        textOffset  = 70,
+        textOffset  = 371,
         tradeItem   = xi.item.ULHUADSHIS_FANG,
         numRequired = 50,
 
@@ -6307,6 +6351,42 @@ xi.magian.trials =
         },
     },
 
+    [2017] = -- Ukonvasara 85
+    {
+        previousTrial = 1354,
+        requiredItem  =
+        {
+            itemId       = xi.item.UKONVASARA,
+        },
+
+        textOffset  = 418,
+        numRequired = 50,
+        tradeItem   = xi.item.ITZPAPALOTLS_SCALE,
+
+        rewardItem =
+        {
+            itemId       = xi.item.UKONVASARA_85,
+        },
+    },
+
+    [2234] =
+    {
+        previousTrial = 1759,
+        requiredItem  =
+        {
+            itemId       = xi.item.ARMAGEDDON,
+        },
+
+        textOffset  = 1329,
+        tradeItem   = xi.item.CIREIN_CROINS_LANTERN,
+        numRequired = 50,
+
+        rewardItem =
+        {
+            itemId       = xi.item.ARMAGEDDON_85,
+        },
+    },
+ 
     [2247] =
     {
         previousTrial = 1786,
@@ -6669,7 +6749,7 @@ xi.magian.trials =
             itemId = xi.item.VERETHRAGNA_85,
         },
 
-        textOffset  = 70,
+        textOffset  = 371,
         tradeItem   = xi.item.DRAGUAS_SCALE,
         numRequired = 75,
 
@@ -7067,7 +7147,7 @@ xi.magian.trials =
             itemId = xi.item.VERETHRAGNA_90,
         },
 
-        textOffset  = 70,
+        textOffset  = 371,
         tradeItem   = xi.item.PLATE_OF_HEAVY_METAL,
         numRequired = 1500,
 
@@ -7340,7 +7420,7 @@ xi.magian.trials =
             itemId = xi.item.VERETHRAGNA_95,
         },
 
-        textOffset  = 70,
+        textOffset  = 371,
         tradeItem   = xi.item.PINCH_OF_RIFTCINDER,
         numRequired = 60,
 
@@ -7628,7 +7708,7 @@ xi.magian.trials =
             itemId = xi.item.VERETHRAGNA_99,
         },
 
-        textOffset  = 70,
+        textOffset  = 371,
         tradeItem   = xi.item.PINCH_OF_RIFTCINDER,
         numRequired = 3000,
 

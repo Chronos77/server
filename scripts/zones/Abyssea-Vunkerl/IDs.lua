@@ -71,6 +71,22 @@ zones[xi.zone.ABYSSEA_VUNKERL] =
     },
     mob =
     {
+        KHALKOTAUR = GetFirstID('Khalkotaur'),
+        QUASIMODO = GetFirstID('Quasimodo'),
+        IKU_TURSO = GetFirstID('Iku-Turso'),
+        DVALINN = GetFirstID('Dvalinn'),
+        KADRAETH = GetFirstID('Kadraeth_the_Hatespawn'),
+        RAKSHAS = GetFirstID('Rakshas'),
+        SEPS = GetFirstID('Seps'),
+        XAN = GetFirstID('Xan'),
+        CHHIR_BATTI = GetFirstID('Chhir_Batti'),
+        ARMILLARIA = GetFirstID('Armillaria'),
+        PASCERPOT = GetFirstID('Pascerpot'),
+        GNAWTOOTH_GARY = GetFirstID('Gnawtooth_Gary'),
+        BUKHIS = GetFirstID('Bukhis'),
+        SEDNA = GetFirstID('Sedna'),
+        DURINN = GetFirstID('Durinn'),
+        KARKADANN = GetFirstID('Karkadann'),
     },
     npc =
     {

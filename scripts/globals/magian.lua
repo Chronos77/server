@@ -80,7 +80,6 @@ end
 -- Returns the Index of first available Trial Slot
 local function getAvailableTrialSlot(player)
     local playerTrials = getPlayerTrialData(player)
-
     for trialSlot, trialData in ipairs(playerTrials.trialData) do
         if trialData.trialId == 0 then
             return trialSlot
@@ -134,7 +133,8 @@ local function progressPlayerTrial(player, trialId, progressAmt)
         trialSlot and
         activeTrials.trialData[trialSlot].progress < activeTrials.trialData[trialSlot].objectiveTotal
     then
-        updatePlayerTrial(player, trialSlot, trialId, activeTrials.trialData[trialSlot].progress + progressAmt)
+        local newProgress = activeTrials.trialData[trialSlot].progress + (progressAmt * xi.settings.main.MAGIAN_TRIALS_MULTIPLIER)
+        updatePlayerTrial(player, trialSlot, trialId, math.min(activeTrials.trialData[trialSlot].objectiveTotal, newProgress))
 
         local remainingObjectives = activeTrials.trialData[trialSlot].objectiveTotal - activeTrials.trialData[trialSlot].progress
         if remainingObjectives == 0 then
@@ -301,6 +301,8 @@ local function getAvailableTrials(itemObj)
         lookupKeys[augSlot + 2] = packAugment(itemObj:getAugment(augSlot))
     end
 
+    print(lookupKeys)
+
     return getNestedValue(xi.magian.requiredItemsToTrial, lookupKeys) or {}
 end
 
@@ -341,6 +343,8 @@ xi.magian.magianOnTrade = function(player, npc, trade)
     local _, numActiveTrials = packActiveTrials(player)
     local trialId            = itemObj:getTrialNumber()
     local trialData          = xi.magian.trials[trialId]
+
+    print(availableTrials)
 
     if
         player:hasKeyItem(xi.ki.MAGIAN_TRIAL_LOG) and
@@ -575,6 +579,7 @@ xi.magian.magianOnEventFinish = function(player, csid, option, npc)
         npcUtil.giveKeyItem(player, xi.ki.MAGIAN_TRIAL_LOG)
     elseif csid == moogleData[4] then
         -- Trial Item Traded without Trial Inscribed
+
 
         if finishType == 7 then
             -- Start a new trial for an Item

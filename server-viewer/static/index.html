@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Server Viewer - Logs & Mobs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🖥️ Server Viewer</h1>
+            <nav class="tabs">
+                <button class="tab-btn active" data-tab="logs">📊 Logs</button>
+                <button class="tab-btn" data-tab="mobs">👹 Mobs</button>
+            </nav>
+        </header>
+        
+        <!-- Onglet Logs -->
+        <div id="logs-tab" class="tab-content active">
+            <div class="controls">
+                <button id="pauseBtn" class="btn">⏸ Pause</button>
+                <button id="clearBtn" class="btn">🗑️ Clear</button>
+                <select id="refreshRate">
+                    <option value="1000">1 seconde</option>
+                    <option value="2000" selected>2 secondes</option>
+                    <option value="5000">5 secondes</option>
+                    <option value="10000">10 secondes</option>
+                </select>
+            </div>
+            
+            <div class="logs-grid">
+                <div class="log-panel" id="map-panel">
+                    <div class="panel-header">
+                        <h2>🗺️ Map Server</h2>
+                        <span class="status" id="map-status">●</span>
+                    </div>
+                    <div class="log-content" id="map-content">
+                        <div class="loading">Chargement...</div>
+                    </div>
+                </div>
+                
+                <div class="log-panel" id="search-panel">
+                    <div class="panel-header">
+                        <h2>🔍 Search Server</h2>
+                        <span class="status" id="search-status">●</span>
+                    </div>
+                    <div class="log-content" id="search-content">
+                        <div class="loading">Chargement...</div>
+                    </div>
+                </div>
+                
+                <div class="log-panel" id="connect-panel">
+                    <div class="panel-header">
+                        <h2>🔌 Connect Server</h2>
+                        <span class="status" id="connect-status">●</span>
+                    </div>
+                    <div class="log-content" id="connect-content">
+                        <div class="loading">Chargement...</div>
+                    </div>
+                </div>
+                
+                <div class="log-panel" id="world-panel">
+                    <div class="panel-header">
+                        <h2>🌍 World Server</h2>
+                        <span class="status" id="world-status">●</span>
+                    </div>
+                    <div class="log-content" id="world-content">
+                        <div class="loading">Chargement...</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Onglet Mobs -->
+        <div id="mobs-tab" class="tab-content">
+            <div class="search-container">
+                <input 
+                    type="text" 
+                    id="searchInput" 
+                    class="search-input" 
+                    placeholder="Rechercher par ID ou nom (ex: 16781313 ou Snipper)..."
+                    autocomplete="off"
+                >
+                <button id="searchBtn" class="btn">🔍 Rechercher</button>
+            </div>
+            
+            <div id="loading" class="loading hidden">
+                <div class="spinner"></div>
+                <p>Chargement des données...</p>
+            </div>
+            
+            <div id="error" class="error-message hidden"></div>
+            
+            <div id="mobDetails" class="mob-details hidden">
+                <!-- Le contenu sera généré dynamiquement -->
+            </div>
+        </div>
+    </div>
+    
+    <script src="logs.js"></script>
+    <script src="mobs.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
