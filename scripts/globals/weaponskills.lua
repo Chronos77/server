@@ -293,6 +293,11 @@ local function calculateHybridMagicDamage(tp, physicaldmg, attacker, target, wsP
         magicdmg = utils.clamp(magicdmg, 0, 99999)
         magicdmg = utils.oneforall(target, magicdmg)
         magicdmg = utils.stoneskin(target, magicdmg)
+
+        -- Apply elemental power multiplier for hybrid weapon skills with elemental damage
+        if wsParams.ele and wsParams.ele > xi.element.NONE then
+            magicdmg = magicdmg * xi.settings.main.WEAPON_SKILL_ELEMENTAL_POWER
+        end
     end
 
     return math.floor(magicdmg)
@@ -911,6 +916,11 @@ xi.weaponskills.doMagicWeaponskill = function(attacker, target, wsID, wsParams, 
 
         dmg = utils.oneforall(target, dmg)
         dmg = utils.stoneskin(target, dmg)
+
+        -- Apply elemental power multiplier for elemental weapon skills
+        if wsParams.ele and wsParams.ele > xi.element.NONE then
+            dmg = dmg * xi.settings.main.WEAPON_SKILL_ELEMENTAL_POWER
+        end
 
         dmg = dmg * xi.settings.main.WEAPON_SKILL_POWER -- Add server bonus
     else

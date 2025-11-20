@@ -5515,9 +5515,7 @@ void AddExperiencePoints(bool expFromRaise, CCharEntity* PChar, CBaseEntity* PMo
         uint16 Pzone = PChar->getZone();
         if (zoneutils::GetCurrentRegion(Pzone) == REGION_TYPE::ABYSSEA)
         {
-            // Cruor is only awarded when an experience chain is active
-            // Cruor formula: base cruor = exp / 5, but only if chain is active
-            if (mobCheck >= EMobDifficulty::EvenMatch && isexpchain && exp > 0)
+            if (PChar->StatusEffectContainer->HasStatusEffect(EFFECT_VISITANT) && exp > 0)
             {
                 uint16 TextID = luautils::GetTextIDVariable(Pzone, "CRUOR_OBTAINED");
 
@@ -5536,6 +5534,10 @@ void AddExperiencePoints(bool expFromRaise, CCharEntity* PChar, CBaseEntity* PMo
                         // Send message: "Obtained <cruorAmount> cruor. (Total: <totalCruor + cruorAmount>)"
                         PChar->pushPacket<GP_SERV_COMMAND_TALKNUMWORK>(PChar, TextID, cruorAmount, totalCruor + cruorAmount, 0, 0, false);
                         charutils::AddPoints(PChar, "cruor", cruorAmount);
+                    }
+                    else
+                    {
+                        ShowDebug("Cruor calculation: exp=%u, cruorAmount=%u (too low, not awarding)", exp, cruorAmount);
                     }
                 }
             }

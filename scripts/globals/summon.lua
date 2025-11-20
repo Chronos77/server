@@ -338,6 +338,11 @@ xi.summon.avatarFinalAdjustments = function(dmg, mob, skill, target, skilltype, 
     -- Calculate Blood Pact Damage before stoneskin
     dmg = math.floor(dmg * xi.settings.main.BP_DAMAGE_RATE + dmg * mob:getMod(xi.mod.BP_DAMAGE) / 100)
 
+    -- Apply elemental power multiplier for elemental Blood Pacts
+    if skilltype == xi.attackType.MAGICAL and damagetype >= xi.damageType.FIRE and damagetype <= xi.damageType.DARK then
+        dmg = math.floor(dmg * xi.settings.main.BP_ELEMENTAL_POWER)
+    end
+
     if dmg < 0 then
         return dmg
     end
