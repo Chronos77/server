@@ -189,6 +189,12 @@ xi.combat.physical.calculateAttackDamage = function(actor, target, slot, physica
         damage = math.floor(damage * (1 + actor:getMod(xi.mod.AUGMENTS_TA) / 100))
     end
 
+    -- Multiplicateur pour les attaques normales (depuis les settings)
+    if physicalAttackType == xi.physicalAttackType.NORMAL then
+        local normalAttackMultiplier = xi.settings.main.NORMAL_ATTACK_DAMAGE_MULTIPLIER
+        damage = math.floor(damage * normalAttackMultiplier)
+    end
+
     --- Low level mobs can get negative fSTR so low they crater their (base weapon damage + fstr) to below 0.
     --- Absorption isn't possible at this point in the calculation, so zero it.
     if damage < 0 then
