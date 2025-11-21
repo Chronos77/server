@@ -5,6 +5,11 @@
 ---@type TMobEntity
 local entity = {}
 
+entity.onMobSpawn = function(mob)
+    -- Fix size for large Caturae NM
+    mob:setMeleeRange(6.0) -- Large Caturae NM size
+end
+
 entity.onMobFight = function(mob, target)
     if mob:getHPP() < 20 then
         mob:setMobMod(xi.mobMod.SPELL_LIST, 155)
