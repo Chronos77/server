@@ -2825,7 +2825,8 @@ INSERT INTO `mob_skill_lists` VALUES ('Chloris',835,2210); -- petal pirouette
 INSERT INTO `mob_skill_lists` VALUES ('Chloris',835,2387); -- fatal scream
 -- INSERT INTO `mob_skill_lists` VALUES ('Chloris',835,2579); -- phaeosynthesis
 INSERT INTO `mob_skill_lists` VALUES ('Chukwa',836,806); -- tortoise stomp
-INSERT INTO `mob_skill_lists` VALUES ('Cuelebre',837,1303); -- ocher blast
+INSERT INTO `mob_skill_lists` VALUES ('Cuelebre',837,1298); -- ochre blast alt (normal attack, bypasses shadows)
+INSERT INTO `mob_skill_lists` VALUES ('Cuelebre',837,1303); -- ochre blast
 INSERT INTO `mob_skill_lists` VALUES ('Cuelebre',837,1304); -- bai wing
 INSERT INTO `mob_skill_lists` VALUES ('Gancanagh',838,2210); -- petal pirouette
 -- INSERT INTO `mob_skill_lists` VALUES ('Gancanagh',838,2599); -- tepal twist
