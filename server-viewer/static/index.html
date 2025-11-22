@@ -13,6 +13,7 @@
             <nav class="tabs">
                 <button class="tab-btn active" data-tab="logs">📊 Logs</button>
                 <button class="tab-btn" data-tab="mobs">👹 Mobs</button>
+                <button class="tab-btn" data-tab="items">🎒 Items</button>
             </nav>
         </header>
         
@@ -96,10 +97,36 @@
                 <!-- Le contenu sera généré dynamiquement -->
             </div>
         </div>
+        
+        <!-- Onglet Items -->
+        <div id="items-tab" class="tab-content">
+            <div class="search-container">
+                <input 
+                    type="text" 
+                    id="itemSearchInput" 
+                    class="search-input" 
+                    placeholder="Rechercher par ID ou nom (ex: 4096 ou fire_crystal)..."
+                    autocomplete="off"
+                >
+                <button id="itemSearchBtn" class="btn">🔍 Rechercher</button>
+            </div>
+            
+            <div id="itemLoading" class="loading hidden">
+                <div class="spinner"></div>
+                <p>Chargement des données...</p>
+            </div>
+            
+            <div id="itemError" class="error-message hidden"></div>
+            
+            <div id="itemDetails" class="mob-details hidden">
+                <!-- Le contenu sera généré dynamiquement -->
+            </div>
+        </div>
     </div>
     
     <script src="logs.js"></script>
     <script src="mobs.js"></script>
+    <script src="items.js"></script>
     <script src="app.js"></script>
 </body>
 </html>

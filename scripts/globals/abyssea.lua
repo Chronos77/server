@@ -1354,14 +1354,11 @@ xi.abyssea.traverserNPCOnUpdate = function(player, csid, option, npc)
             
             -- If epoch is not set, initialize it now
             if traverserEpoch == 0 then
-                print('[Abyssea] Epoch is 0, initializing now')
                 player:setTraverserEpoch()
                 traverserEpoch = player:getTraverserEpoch()
 
-                print('[Abyssea] Epoch initialized to:', traverserEpoch)
                 -- If still 0 after initialization, return 0 (should not happen)
                 if traverserEpoch == 0 then
-                    print('[Abyssea] Failed to initialize epoch, cannot calculate recharge time')
                     player:updateEvent(0, 0, 0, 0, 0)
                     return
                 end
@@ -1373,20 +1370,9 @@ xi.abyssea.traverserNPCOnUpdate = function(player, csid, option, npc)
             local elapsedSinceEpoch = currentTime - traverserEpoch
             local elapsedHours = math.floor(elapsedSinceEpoch / 3600)
             local stonesGenerated = math.floor(elapsedHours / rechargeInterval)
-            
-            -- Debug output
-            print('[Abyssea] Debug - rechargeInterval:', rechargeInterval)
-            print('[Abyssea] Debug - traverserEpoch:', traverserEpoch)
-            print('[Abyssea] Debug - currentTime:', currentTime)
-            print('[Abyssea] Debug - elapsedSinceEpoch:', elapsedSinceEpoch, 'seconds')
-            print('[Abyssea] Debug - elapsedHours:', elapsedHours)
-            print('[Abyssea] Debug - stonesGenerated:', stonesGenerated)
-            print('[Abyssea] Debug - claimedStones:', claimedStones)
-            print('[Abyssea] Debug - availableStones (from function):', player:getAvailableTraverserStones())
-            
+
             -- If stones are available, recharge time is 0
             if stonesGenerated > claimedStones then
-                print('[Abyssea] Stones available, recharge time = 0')
                 player:updateEvent(0, 0, 0, 0, 0)
                 return
             end
@@ -1397,9 +1383,6 @@ xi.abyssea.traverserNPCOnUpdate = function(player, csid, option, npc)
             
             -- Calculate remaining time in minutes
             local rechargeRemaining = math.max(0, (nextStoneTime - currentTime) / 60)
-            
-            print('[Abyssea] Debug - nextStoneTime:', nextStoneTime)
-            print('[Abyssea] Debug - rechargeRemaining:', rechargeRemaining, 'minutes')
 
             player:updateEvent(0, 0, 0, 0, rechargeRemaining)
         end

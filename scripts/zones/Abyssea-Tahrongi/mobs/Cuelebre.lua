@@ -23,14 +23,11 @@ entity.onMobSpawn = function(mob)
     -- For now, using skill list 837 which contains ochre_blast and bai_wing
     mob:setMobSkillAttack(837)
     
-    -- Fix size for large Wyrm NM
-    mob:setMeleeRange(7.0) -- Large Wyrm NM size
-    
     -- Susceptible to Stun (unlike Ouryu which has immunity)
     -- No stun immunity added
     
     -- Increased movement speed
-    mob:setMod(xi.mod.MOVE, 50) -- Increase movement speed
+    mob:setMod(xi.mobMod.RUN_SPEED_MULT, 150) -- Increase movement speed (150% = 1.5x speed)
     
     -- Initialize rage timer
     mob:setLocalVar('[rage]timer', RAGE_TIMER)

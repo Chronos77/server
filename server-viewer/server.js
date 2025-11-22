@@ -558,6 +558,229 @@ app.get('/api/mobs/pool/:poolId', async (req, res) => {
     }
 });
 
+// ==================== Routes Items ====================
+
+// Recherche d'items par nom (auto-complétion)
+app.get('/api/items/search', async (req, res) => {
+    if (!pool) {
+        return res.status(503).json({ error: 'Database not available' });
+    }
+    
+    const query = req.query.q || '';
+    const limit = parseInt(req.query.limit) || 20;
+    
+    if (!query || query.length < 2) {
+        return res.json([]);
+    }
+    
+    let conn = null;
+    try {
+        conn = await pool.getConnection();
+        
+        const searchQuery = `
+            SELECT 
+                itemid,
+                name,
+                type,
+                stackSize,
+                flags,
+                aH,
+                BaseSell
+            FROM item_basic
+            WHERE name LIKE ?
+            ORDER BY name
+            LIMIT ?
+        `;
+        
+        const searchTerm = `%${query}%`;
+        const results = await conn.query(searchQuery, [searchTerm, limit]);
+        
+        res.json(results);
+    } catch (error) {
+        console.error('Error searching items:', error);
+        res.status(500).json({ error: error.message });
+    } finally {
+        if (conn) {
+            conn.release();
+        }
+    }
+});
+
+// Récupérer les détails complets d'un item par ID
+app.get('/api/items/:itemId', async (req, res) => {
+    if (!pool) {
+        return res.status(503).json({ error: 'Database not available' });
+    }
+    
+    const itemId = parseInt(req.params.itemId);
+    
+    if (isNaN(itemId)) {
+        return res.status(400).json({ error: 'Invalid item ID' });
+    }
+    
+    let conn = null;
+    try {
+        conn = await pool.getConnection();
+        
+        // Récupérer les informations de base
+        const itemQuery = `
+            SELECT 
+                ib.itemid,
+                ib.subid,
+                ib.name,
+                ib.sortname,
+                ib.type,
+                ib.stackSize,
+                ib.flags,
+                ib.aH,
+                ib.BaseSell
+            FROM item_basic ib
+            WHERE ib.itemid = ?
+            LIMIT 1
+        `;
+        
+        const itemResults = await conn.query(itemQuery, [itemId]);
+        
+        if (itemResults.length === 0) {
+            return res.status(404).json({ error: 'Item not found' });
+        }
+        
+        const item = itemResults[0];
+        
+        // Récupérer les informations supplémentaires selon le type
+        let usable = null;
+        let equipment = null;
+        let weapon = null;
+        let furnishing = null;
+        let puppet = null;
+        
+        // Item usable
+        try {
+            const usableQuery = `
+                SELECT 
+                    validTargets,
+                    activation,
+                    animation,
+                    animationTime,
+                    maxCharges,
+                    useDelay,
+                    reuseDelay,
+                    aoe
+                FROM item_usable
+                WHERE itemid = ?
+            `;
+            const usableResults = await conn.query(usableQuery, [itemId]);
+            if (usableResults.length > 0) {
+                usable = usableResults[0];
+            }
+        } catch (e) {
+            // Table might not exist or item not usable
+        }
+        
+        // Item equipment
+        try {
+            const equipQuery = `
+                SELECT 
+                    level,
+                    ilevel,
+                    jobs,
+                    MId,
+                    shieldSize,
+                    scriptType,
+                    slot,
+                    rslot,
+                    su_level,
+                    rslotlook
+                FROM item_equipment
+                WHERE itemid = ?
+            `;
+            const equipResults = await conn.query(equipQuery, [itemId]);
+            if (equipResults.length > 0) {
+                equipment = equipResults[0];
+            }
+        } catch (e) {
+            // Table might not exist or item not equipment
+        }
+        
+        // Item weapon
+        try {
+            const weaponQuery = `
+                SELECT 
+                    skill,
+                    subskill,
+                    ilvl_skill,
+                    ilvl_parry,
+                    ilvl_macc,
+                    delay,
+                    dmg,
+                    dmgType,
+                    hit,
+                    unlock_points
+                FROM item_weapon
+                WHERE itemid = ?
+            `;
+            const weaponResults = await conn.query(weaponQuery, [itemId]);
+            if (weaponResults.length > 0) {
+                weapon = weaponResults[0];
+            }
+        } catch (e) {
+            // Table might not exist or item not weapon
+        }
+        
+        // Item furnishing
+        try {
+            const furnishingQuery = `
+                SELECT 
+                    storage,
+                    moghancement,
+                    element,
+                    aura
+                FROM item_furnishing
+                WHERE itemid = ?
+            `;
+            const furnishingResults = await conn.query(furnishingQuery, [itemId]);
+            if (furnishingResults.length > 0) {
+                furnishing = furnishingResults[0];
+            }
+        } catch (e) {
+            // Table might not exist or item not furnishing
+        }
+        
+        // Item puppet
+        try {
+            const puppetQuery = `
+                SELECT 
+                    slot,
+                    element
+                FROM item_puppet
+                WHERE itemid = ?
+            `;
+            const puppetResults = await conn.query(puppetQuery, [itemId]);
+            if (puppetResults.length > 0) {
+                puppet = puppetResults[0];
+            }
+        } catch (e) {
+            // Table might not exist or item not puppet
+        }
+        
+        res.json({
+            ...item,
+            usable: usable,
+            equipment: equipment,
+            weapon: weapon,
+            furnishing: furnishing,
+            puppet: puppet
+        });
+    } catch (error) {
+        console.error('Error fetching item details:', error);
+        res.status(500).json({ error: error.message });
+    } finally {
+        if (conn) {
+            conn.release();
+        }
+    }
+});
+
 const port = process.env.PORT || 5000;
 
 console.log(`Log directory: ${LOG_DIR}`);
@@ -570,6 +793,7 @@ initDatabase().then(() => {
         console.log(`✅ Unified server viewer running on port ${port}`);
         console.log(`   - Logs viewer: http://localhost:${port}/#logs`);
         console.log(`   - Mobs viewer: http://localhost:${port}/#mobs`);
+        console.log(`   - Items viewer: http://localhost:${port}/#items`);
     });
 }).catch(error => {
     console.warn('⚠️  Database initialization failed, continuing with logs only');

@@ -26,6 +26,21 @@ document.addEventListener('DOMContentLoaded', () => {
                 initMobs();
             }
         }, 100);
+    } else if (hash.startsWith('#items')) {
+        // Activer l'onglet items
+        const itemsTab = document.querySelector('.tab-btn[data-tab="items"]');
+        const logsTab = document.querySelector('.tab-btn[data-tab="logs"]');
+        if (itemsTab && logsTab) {
+            logsTab.classList.remove('active');
+            itemsTab.classList.add('active');
+            document.getElementById('logs-tab')?.classList.remove('active');
+            document.getElementById('items-tab')?.classList.add('active');
+        }
+        setTimeout(() => {
+            if (typeof initItems === 'function') {
+                initItems();
+            }
+        }, 100);
     }
 });
 
@@ -61,6 +76,10 @@ function initializeTabs() {
                 if (typeof initMobs === 'function') {
                     initMobs();
                 }
+            } else if (targetTab === 'items') {
+                if (typeof initItems === 'function') {
+                    initItems();
+                }
             }
         });
     });
@@ -84,6 +103,8 @@ function initializeTabs() {
         setTimeout(() => initLogs(), 200);
     } else if (initialTab === 'mobs' && typeof initMobs === 'function') {
         setTimeout(() => initMobs(), 200);
+    } else if (initialTab === 'items' && typeof initItems === 'function') {
+        setTimeout(() => initItems(), 200);
     }
 }
 
@@ -91,5 +112,12 @@ function initializeTabs() {
 function initMobs() {
     if (typeof initializeMobs === 'function') {
         initializeMobs();
+    }
+}
+
+// Fonction pour initialiser les items (sera définie dans items.js)
+function initItems() {
+    if (typeof initializeItems === 'function') {
+        initializeItems();
     }
 }

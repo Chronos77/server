@@ -12,7 +12,18 @@ xi.pyxis.popitem = {}
 local popitemDrops =
 {
     [xi.zone.ABYSSEA_KONSCHTAT ] = { 2903, 2904, 2906, 2907, 2908, 2909, 2910, 2911, 2912, 2913, 2914 },
-    [xi.zone.ABYSSEA_TAHRONGI  ] = { },
+    [xi.zone.ABYSSEA_TAHRONGI  ] = {
+        xi.item.CLUMP_OF_ACIDIC_HUMUS,
+        xi.item.CLUMP_OF_ALKALINE_HUMUS,
+        xi.item.CHUNK_OF_COCKATRICE_TAILMEAT,
+        xi.item.EFT_EGG,
+        xi.item.EXORCISED_SKULL,
+        xi.item.QUIVERING_EFT_EGG,
+        xi.item.RESILIENT_MANE,
+        xi.item.SHOCKING_WHISKER,
+        xi.item.SMOOTH_WHISKER,
+        xi.item.TARNISHED_PINCER
+    },
     [xi.zone.ABYSSEA_LA_THEINE ] = { },
     [xi.zone.ABYSSEA_ATTOHWA   ] = { },
     [xi.zone.ABYSSEA_MISAREAUX ] = { },
