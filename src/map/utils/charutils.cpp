@@ -5512,10 +5512,12 @@ void AddExperiencePoints(bool expFromRaise, CCharEntity* PChar, CBaseEntity* PMo
         }
 
         // Cruor Drops in Abyssea zones.
+        // Only award cruor when experience comes from mob kills (PMob != nullptr)
+        // This prevents cruor from being awarded from ROE rewards, quests, or other non-mob sources
         uint16 Pzone = PChar->getZone();
         if (zoneutils::GetCurrentRegion(Pzone) == REGION_TYPE::ABYSSEA)
         {
-            if (PChar->StatusEffectContainer->HasStatusEffect(EFFECT_VISITANT) && exp > 0)
+            if (PChar->StatusEffectContainer->HasStatusEffect(EFFECT_VISITANT) && exp > 0 && PMob != nullptr)
             {
                 uint16 TextID = luautils::GetTextIDVariable(Pzone, "CRUOR_OBTAINED");
 

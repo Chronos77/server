@@ -4654,7 +4654,7 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 418,
+        textOffset  = 419,
         numRequired = 50,
         tradeItem   = xi.item.GLAVOID_SHELL,
 
@@ -6359,7 +6359,7 @@ xi.magian.trials =
             itemId       = xi.item.UKONVASARA,
         },
 
-        textOffset  = 418,
+        textOffset  = 419,
         numRequired = 50,
         tradeItem   = xi.item.ITZPAPALOTLS_SCALE,
 

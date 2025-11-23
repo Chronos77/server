@@ -21,7 +21,8 @@ entity.onMobInitialize = function(mob)
     -- Set immunities
     mob:addImmunity(xi.immunity.BIND)
     mob:addImmunity(xi.immunity.GRAVITY)
-    mob:addImmunity(xi.immunity.SLEEP)
+    mob:addImmunity(xi.immunity.LIGHT_SLEEP)
+    mob:addImmunity(xi.immunity.DARK_SLEEP)
     
     -- Susceptible to Paralyze, Slow, Addle (no immunities set for these)
     
