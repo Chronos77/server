@@ -18345,8 +18345,10 @@ bool CLuaBaseEntity::hasTPMoves()
 /************************************************************************
  *  Function: drawIn()
  *  Purpose : Draws in the target, or current target if not specified
- *  Example : mob:drawIn()     mob:drawIn(player)
+ *  Example : mob:drawIn()     mob:drawIn(player, 0, 0, {x=100, y=0, z=200, rot=64})
  *  Notes   : Draws in a player even if within the draw-in leash
+ *            Optional 4th parameter: custom position table to draw to (instead of mob position)
+ *  TODO    : Cleanup and centralize all draw-in functions
  ************************************************************************/
 void CLuaBaseEntity::drawIn(const sol::variadic_args& va) const
 {
@@ -18374,6 +18376,7 @@ void CLuaBaseEntity::drawIn(const sol::variadic_args& va) const
     const CLuaBaseEntity* PLuaBaseEntity = va.get<CLuaBaseEntity*>(0);
     const float           offset         = va.get<float>(1);
     const float           degrees        = va.get<float>(2);
+    const sol::object     customPosObj   = va.get<sol::object>(3);
 
     if (!PLuaBaseEntity)
     {
@@ -18391,7 +18394,19 @@ void CLuaBaseEntity::drawIn(const sol::variadic_args& va) const
 
     if (PTarget)
     {
-        battleutils::DrawIn(PTarget, mobObj->loc.p, offset, degrees);
+        position_t drawInPos = mobObj->loc.p;
+
+        // If a custom position table is provided, use it instead of mob's position
+        if (customPosObj.valid() && customPosObj.is<sol::table>())
+        {
+            sol::table posTable = customPosObj.as<sol::table>();
+            drawInPos.x         = posTable.get_or("x", mobObj->loc.p.x);
+            drawInPos.y         = posTable.get_or("y", mobObj->loc.p.y);
+            drawInPos.z         = posTable.get_or("z", mobObj->loc.p.z);
+            drawInPos.rotation  = posTable.get_or("rot", mobObj->loc.p.rotation);
+        }
+
+        battleutils::DrawIn(PTarget, drawInPos, offset, degrees);
     }
 }
 

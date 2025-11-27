@@ -2223,21 +2223,21 @@ INSERT INTO `mob_spawn_points` VALUES (16814432,0,'Golden-Tongued_Culberry','Gol
 -- ------------------------------------------------------------
 
 -- Darkness Named
-INSERT INTO `mob_spawn_points` VALUES (16818177,0,'Diabolos','Diabolos',1,-239.679,-32.500,289.431,68);
+INSERT INTO `mob_spawn_points` VALUES (16818177,0,'Diabolos_DN','Diabolos_DN',1,-239.679,-32.500,289.431,68);
 INSERT INTO `mob_spawn_points` VALUES (16818178,0,'Diremite','Diremite',2,-243.367,-17.244,290.055,139);
 INSERT INTO `mob_spawn_points` VALUES (16818179,0,'Diremite','Diremite',2,-233.889,-17.245,279.957,36);
 INSERT INTO `mob_spawn_points` VALUES (16818180,0,'Diremite','Diremite',2,-239.323,-17.227,280.312,63);
 INSERT INTO `mob_spawn_points` VALUES (16818181,0,'Diremite','Diremite',2,-244.794,-17.244,286.114,72);
 INSERT INTO `mob_spawn_points` VALUES (16818182,0,'Diremite','Diremite',2,-239.666,-17.244,289.353,197);
 INSERT INTO `mob_spawn_points` VALUES (16818183,0,'Diremite','Diremite',2,-234.289,-17.248,286.192,56);
-INSERT INTO `mob_spawn_points` VALUES (16818184,0,'Diabolos','Diabolos',1,0.311,7.502,9.383,68);
+INSERT INTO `mob_spawn_points` VALUES (16818184,0,'Diabolos_DN','Diabolos_DN',1,0.311,7.502,9.383,68);
 INSERT INTO `mob_spawn_points` VALUES (16818185,0,'Diremite','Diremite',2,-3.377,22.758,10.007,139);
 INSERT INTO `mob_spawn_points` VALUES (16818186,0,'Diremite','Diremite',2,6.101,22.757,-0.091,36);
 INSERT INTO `mob_spawn_points` VALUES (16818187,0,'Diremite','Diremite',2,0.667,22.775,0.264,63);
 INSERT INTO `mob_spawn_points` VALUES (16818188,0,'Diremite','Diremite',2,-4.804,22.758,6.066,72);
 INSERT INTO `mob_spawn_points` VALUES (16818189,0,'Diremite','Diremite',2,0.324,22.758,9.305,197);
 INSERT INTO `mob_spawn_points` VALUES (16818190,0,'Diremite','Diremite',2,5.701,22.754,6.144,56);
-INSERT INTO `mob_spawn_points` VALUES (16818191,0,'Diabolos','Diabolos',1,280.488,47.507,-270.633,68);
+INSERT INTO `mob_spawn_points` VALUES (16818191,0,'Diabolos_DN','Diabolos_DN',1,280.488,47.507,-270.633,68);
 INSERT INTO `mob_spawn_points` VALUES (16818192,0,'Diremite','Diremite',2,276.800,62.763,-270.009,139);
 INSERT INTO `mob_spawn_points` VALUES (16818193,0,'Diremite','Diremite',2,286.278,62.762,-280.107,36);
 INSERT INTO `mob_spawn_points` VALUES (16818194,0,'Diremite','Diremite',2,280.844,62.780,-279.752,63);
@@ -2251,21 +2251,21 @@ INSERT INTO `mob_spawn_points` VALUES (16818200,0,'Pasuk','Pasuk',3,0,24,0,64);
 INSERT INTO `mob_spawn_points` VALUES (16818202,0,'Pasuk','Pasuk',3,280,64,-275,64);
 
 -- Waking Dreams
-INSERT INTO `mob_spawn_points` VALUES (16818204,0,'Diabolos','Diabolos',4,-239.679,-32.500,289.431,68);
+INSERT INTO `mob_spawn_points` VALUES (16818204,0,'Diabolos_WD','Diabolos_WD',4,-239.679,-32.500,289.431,68);
 INSERT INTO `mob_spawn_points` VALUES (16818205,0,'Diremite_Dominator','Diremite Dominator',5,-243.367,-17.244,290.055,139);
 INSERT INTO `mob_spawn_points` VALUES (16818206,0,'Diremite_Dominator','Diremite Dominator',5,-233.889,-17.245,279.957,36);
 INSERT INTO `mob_spawn_points` VALUES (16818207,0,'Diremite_Dominator','Diremite Dominator',5,-239.323,-17.227,280.312,63);
 INSERT INTO `mob_spawn_points` VALUES (16818208,0,'Diremite_Dominator','Diremite Dominator',5,-244.794,-17.244,286.114,72);
 INSERT INTO `mob_spawn_points` VALUES (16818209,0,'Diremite_Dominator','Diremite Dominator',5,-239.666,-17.244,289.353,197);
 INSERT INTO `mob_spawn_points` VALUES (16818210,0,'Diremite_Dominator','Diremite Dominator',5,-234.289,-17.248,286.192,56);
-INSERT INTO `mob_spawn_points` VALUES (16818211,0,'Diabolos','Diabolos',4,0.311,7.502,9.383,68);
+INSERT INTO `mob_spawn_points` VALUES (16818211,0,'Diabolos_WD','Diabolos_WD',4,0.311,7.502,9.383,68);
 INSERT INTO `mob_spawn_points` VALUES (16818212,0,'Diremite_Dominator','Diremite Dominator',5,-3.377,22.758,10.007,139);
 INSERT INTO `mob_spawn_points` VALUES (16818213,0,'Diremite_Dominator','Diremite Dominator',5,6.101,22.757,-0.091,36);
 INSERT INTO `mob_spawn_points` VALUES (16818214,0,'Diremite_Dominator','Diremite Dominator',5,0.667,22.775,0.264,63);
 INSERT INTO `mob_spawn_points` VALUES (16818215,0,'Diremite_Dominator','Diremite Dominator',5,-4.804,22.758,6.066,72);
 INSERT INTO `mob_spawn_points` VALUES (16818216,0,'Diremite_Dominator','Diremite Dominator',5,0.324,22.758,9.305,197);
 INSERT INTO `mob_spawn_points` VALUES (16818217,0,'Diremite_Dominator','Diremite Dominator',5,5.701,22.754,6.144,56);
-INSERT INTO `mob_spawn_points` VALUES (16818218,0,'Diabolos','Diabolos',4,280.488,47.507,-270.633,68);
+INSERT INTO `mob_spawn_points` VALUES (16818218,0,'Diabolos_WD','Diabolos_WD',4,280.488,47.507,-270.633,68);
 INSERT INTO `mob_spawn_points` VALUES (16818219,0,'Diremite_Dominator','Diremite Dominator',5,276.800,62.763,-270.009,139);
 INSERT INTO `mob_spawn_points` VALUES (16818220,0,'Diremite_Dominator','Diremite Dominator',5,286.278,62.762,-280.107,36);
 INSERT INTO `mob_spawn_points` VALUES (16818221,0,'Diremite_Dominator','Diremite Dominator',5,280.844,62.780,-279.752,63);
@@ -13939,8 +13939,8 @@ INSERT INTO `mob_spawn_points` VALUES (17031394,0,'Ebony_Pudding','Ebony Pudding
 INSERT INTO `mob_spawn_points` VALUES (17031395,0,'Friars_Lantern','Friar\'s Lantern',21,-257.600,9.582,256.154,183);
 INSERT INTO `mob_spawn_points` VALUES (17031396,0,'Friars_Lantern','Friar\'s Lantern',21,-257.600,9.570,256.127,179);
 INSERT INTO `mob_spawn_points` VALUES (17031397,0,'Friars_Lantern','Friar\'s Lantern',21,-265.500,13.397,284.446,135);
-INSERT INTO `mob_spawn_points` VALUES (17031398,0,'Friars_Lantern','Friar\'s Lantern',57,-192.000,1.580,296.002,11);
-INSERT INTO `mob_spawn_points` VALUES (17031399,0,'Friars_Lantern','Friar\'s Lantern',57,-187.200,-0.381,293.135,21);
+INSERT INTO `mob_spawn_points` VALUES (17031398,0,'Friars_Lantern_Grow','Friar\'s Lantern',57,-192.000,1.580,296.002,11);
+INSERT INTO `mob_spawn_points` VALUES (17031399,0,'Friars_Lantern_Grow','Friar\'s Lantern',57,-187.200,-0.381,293.135,21);
 INSERT INTO `mob_spawn_points` VALUES (17031400,0,'Fire_Elemental','Fire Elemental',20,-173.900,-6.296,287.105,5);
 INSERT INTO `mob_spawn_points` VALUES (17031401,0,'Big_Bomb','Big Bomb',29,-233.800,13.612,286.713,173);
 INSERT INTO `mob_spawn_points` VALUES (17031402,0,'Troll_Machinist','Troll Machinist',30,-143.600,-10.170,258.040,10);
@@ -13950,8 +13950,8 @@ INSERT INTO `mob_spawn_points` VALUES (17031405,0,'Troll_Grenadier','Troll Grena
 INSERT INTO `mob_spawn_points` VALUES (17031406,0,'Troll_Targeteer','Troll Targeteer',27,-172.900,-11.120,218.639,252);
 INSERT INTO `mob_spawn_points` VALUES (17031407,0,'Troll_Cuirasser','Troll Cuirasser',33,-140.400,-10.620,224.380,128);
 INSERT INTO `mob_spawn_points` VALUES (17031408,0,'Troll_Artilleryman','Troll Artilleryman',25,-180.400,-10.190,213.869,207);
-INSERT INTO `mob_spawn_points` VALUES (17031409,0,'Friars_Lantern','Friar\'s Lantern',57,-196.500,-0.476,140.214,172);
-INSERT INTO `mob_spawn_points` VALUES (17031410,0,'Friars_Lantern','Friar\'s Lantern',57,-176.900,-0.404,135.033,96);
+INSERT INTO `mob_spawn_points` VALUES (17031409,0,'Friars_Lantern_Grow','Friar\'s Lantern',57,-196.500,-0.476,140.214,172);
+INSERT INTO `mob_spawn_points` VALUES (17031410,0,'Friars_Lantern_Grow','Friar\'s Lantern',57,-176.900,-0.404,135.033,96);
 INSERT INTO `mob_spawn_points` VALUES (17031411,0,'Ebony_Pudding','Ebony Pudding',28,-286.100,8.780,377.852,227);
 INSERT INTO `mob_spawn_points` VALUES (17031412,0,'Ebony_Pudding','Ebony Pudding',28,-277.400,9.359,378.441,234);
 INSERT INTO `mob_spawn_points` VALUES (17031413,0,'Ebony_Pudding','Ebony Pudding',28,-521.600,9.993,18.121,137);
@@ -13975,8 +13975,8 @@ INSERT INTO `mob_spawn_points` VALUES (17031430,0,'Ebony_Pudding','Ebony Pudding
 INSERT INTO `mob_spawn_points` VALUES (17031431,0,'Antares','Antares',34,-405.000,-0.465,275.250,193);
 INSERT INTO `mob_spawn_points` VALUES (17031432,0,'Antares','Antares',34,-395.400,-0.414,282.066,127);
 INSERT INTO `mob_spawn_points` VALUES (17031433,0,'Troll_Artilleryman','Troll Artilleryman',25,-316.600,9.749,207.434,168);
-INSERT INTO `mob_spawn_points` VALUES (17031434,0,'Friars_Lantern','Friar\'s Lantern',57,-317.900,9.712,207.089,202);
-INSERT INTO `mob_spawn_points` VALUES (17031435,0,'Friars_Lantern','Friar\'s Lantern',57,-316.700,9.670,204.645,114);
+INSERT INTO `mob_spawn_points` VALUES (17031434,0,'Friars_Lantern_Grow','Friar\'s Lantern',57,-317.900,9.712,207.089,202);
+INSERT INTO `mob_spawn_points` VALUES (17031435,0,'Friars_Lantern_Grow','Friar\'s Lantern',57,-316.700,9.670,204.645,114);
 INSERT INTO `mob_spawn_points` VALUES (17031436,0,'Troll_Combatant','Troll Combatant',26,-323.300,9.824,192.979,19);
 INSERT INTO `mob_spawn_points` VALUES (17031437,0,'Troll_Scrimer','Troll Scrimer',31,-329.600,9.459,194.365,154);
 INSERT INTO `mob_spawn_points` VALUES (17031438,0,'Troll_Machinist','Troll Machinist',30,-284.500,10.010,204.406,178);
@@ -50772,10 +50772,10 @@ INSERT INTO `mob_spawn_points` VALUES (17350933,0,'Kalamainu','Kalamainu',29,-18
 INSERT INTO `mob_spawn_points` VALUES (17350934,0,'Kilioa','Kilioa',30,-193.779,-10.511,54.269,87);
 
 -- Toadal Recall
-INSERT INTO `mob_spawn_points` VALUES (17350936,0,'Toadpillow','Toadpillow',31,-193.000,-9.000,50.000,94);
-INSERT INTO `mob_spawn_points` VALUES (17350937,0,'Toadsquab','Toadsquab',32,-193.000,-9.000,52.000,90);
-INSERT INTO `mob_spawn_points` VALUES (17350938,0,'Toadbolster','Toadbolster',33,-190.000,-10.000,50.000,96);
-INSERT INTO `mob_spawn_points` VALUES (17350939,0,'Toadcushion','Toadcushion',34,-191.000,-10.000,52.000,113);
+INSERT INTO `mob_spawn_points` VALUES (17350936,0,'Toadpillow','Toadpillow',31,-183.5,-11.064,53.5,160);
+INSERT INTO `mob_spawn_points` VALUES (17350937,0,'Toadsquab','Toadsquab',32,-185.5,-11.089,53.5,224);
+INSERT INTO `mob_spawn_points` VALUES (17350938,0,'Toadbolster','Toadbolster',33,-183.5,-11.064,55.5,96);
+INSERT INTO `mob_spawn_points` VALUES (17350939,0,'Toadcushion','Toadcushion',34,-185.5,-11.089,55.5,32);
 
 -- Mirror, Mirror
 INSERT INTO `mob_spawn_points` VALUES (17350941,0,'Carrion_Dragon','Carrion Dragon',35,0.000,0.000,0.000,0);
@@ -51676,15 +51676,15 @@ INSERT INTO `mob_spawn_points` VALUES (17367107,0,'Neman','Neman',19,222.736,-60
 INSERT INTO `mob_spawn_points` VALUES (17367108,0,'Neman','Neman',19,222.736,-60.116,134.524,128);
 
 -- Grove Guardians
-INSERT INTO `mob_spawn_points` VALUES (17367110,0,'Metsanneitsyt','Metsanneitsyt',20,-177.000,60.000,-137.000,120);
-INSERT INTO `mob_spawn_points` VALUES (17367111,0,'Metsanhaltija','Metsanhaltija',21,-177.000,60.000,-141.000,125);
-INSERT INTO `mob_spawn_points` VALUES (17367112,0,'Metsanhaltija','Metsanhaltija',21,-177.000,60.000,-145.000,130);
-INSERT INTO `mob_spawn_points` VALUES (17367114,0,'Metsanneitsyt','Metsanneitsyt',20,23.274,0.000,22.964,120);
-INSERT INTO `mob_spawn_points` VALUES (17367115,0,'Metsanhaltija','Metsanhaltija',21,23.274,0.000,18.964,125);
-INSERT INTO `mob_spawn_points` VALUES (17367116,0,'Metsanhaltija','Metsanhaltija',21,23.274,0.000,14.964,130);
-INSERT INTO `mob_spawn_points` VALUES (17367118,0,'Metsanneitsyt','Metsanneitsyt',20,223.224,-60.000,142.946,120);
-INSERT INTO `mob_spawn_points` VALUES (17367119,0,'Metsanhaltija','Metsanhaltija',21,223.224,-60.000,138.946,125);
-INSERT INTO `mob_spawn_points` VALUES (17367120,0,'Metsanhaltija','Metsanhaltija',21,223.224,-60.000,134.946,130);
+INSERT INTO `mob_spawn_points` VALUES (17367110,0,'Metsanneitsyt','Metsanneitsyt',20,-177.3991,60.1853,-141.9580,128);
+INSERT INTO `mob_spawn_points` VALUES (17367111,0,'Metsanhaltija','Metsanhaltija',21,-181.3991,60.1013,-139.9580,128);
+INSERT INTO `mob_spawn_points` VALUES (17367112,0,'Metsanhaltija','Metsanhaltija',21,-181.3991,60.0873,-143.9580,128);
+INSERT INTO `mob_spawn_points` VALUES (17367114,0,'Metsanneitsyt','Metsanneitsyt',20,22.5785,0.1755,17.9430,128);
+INSERT INTO `mob_spawn_points` VALUES (17367115,0,'Metsanhaltija','Metsanhaltija',21,18.5785,0.0915,19.9430,128);
+INSERT INTO `mob_spawn_points` VALUES (17367116,0,'Metsanhaltija','Metsanhaltija',21,18.5785,0.0775,15.9430,128);
+INSERT INTO `mob_spawn_points` VALUES (17367118,0,'Metsanneitsyt','Metsanneitsyt',20,222.6331,-59.8132,137.9503,128);
+INSERT INTO `mob_spawn_points` VALUES (17367119,0,'Metsanhaltija','Metsanhaltija',21,218.6331,-59.8972,139.9503,128);
+INSERT INTO `mob_spawn_points` VALUES (17367120,0,'Metsanhaltija','Metsanhaltija',21,218.6331,-59.9112,135.9503,128);
 
 -- The Worm's Turn
 INSERT INTO `mob_spawn_points` VALUES (17367122,0,'Flayer_Franz','Flayer Franz',22,-182.000,60.000,-142.000,130);

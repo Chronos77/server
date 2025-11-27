@@ -80,12 +80,11 @@ void CTrustEntity::PostTick()
 
         if (PMaster && PMaster->PParty && updatemask & UPDATE_HP)
         {
-            // clang-format off
-            PMaster->ForParty([this](auto PMember)
-            {
-                static_cast<CCharEntity*>(PMember)->pushPacket<GP_SERV_COMMAND_GROUP_ATTR>(this);
-            });
-            // clang-format on
+            PMaster->ForParty(
+                [this](auto PMember)
+                {
+                    static_cast<CCharEntity*>(PMember)->pushPacket<GP_SERV_COMMAND_GROUP_ATTR>(this);
+                });
         }
 
         updatemask = 0;
@@ -501,7 +500,7 @@ void CTrustEntity::OnWeaponSkillFinished(CWeaponSkillState& state, action_t& act
         PAI->TargetFind->reset();
         if (PWeaponSkill->isAoE())
         {
-            PAI->TargetFind->findWithinArea(PBattleTarget, AOE_RADIUS::TARGET, 10, FINDFLAGS_NONE, TARGET_NONE);
+            PAI->TargetFind->findWithinArea(PBattleTarget, AOE_RADIUS::TARGET, PWeaponSkill->getRadius(), FINDFLAGS_NONE, TARGET_NONE);
         }
         else
         {

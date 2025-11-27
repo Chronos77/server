@@ -804,3 +804,12 @@ xi.mobskills.calculateDuration = function(tp, minimum, maximum)
 
     return minimum + (maximum - minimum) * (tp - 1000) / 1000
 end
+
+---@param target CBaseEntity
+---@param attacker CBaseEntity
+---@param skill CMobSkill
+---@param action CAction
+---@return xi.action.knockback
+xi.mobskills.calculateKnockback = function(target, attacker, skill, action)
+    return utils.clamp(skill:getKnockback() - target:getMod(xi.mod.KNOCKBACK_REDUCTION), xi.action.knockback.NONE, xi.action.knockback.LEVEL7)
+end

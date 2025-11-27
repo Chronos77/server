@@ -162,7 +162,7 @@ void LoadSkillTable()
 void LoadWeaponSkillsList()
 {
     const auto rset = db::preparedStmt("SELECT weaponskillid, name, jobs, type, skilllevel, element, animation, "
-                                       "animationTime, `range`, aoe, primary_sc, secondary_sc, tertiary_sc, main_only, unlock_id "
+                                       "animationTime, `range`, aoe, radius, primary_sc, secondary_sc, tertiary_sc, main_only, unlock_id "
                                        "FROM weapon_skills "
                                        "WHERE weaponskillid < ? "
                                        "ORDER BY type, skilllevel ASC",
@@ -188,6 +188,7 @@ void LoadWeaponSkillsList()
         PWeaponSkill->setAnimationTime(std::chrono::milliseconds(rset->get<uint32>("animationTime")));
         PWeaponSkill->setRange(rset->get<uint8>("range"));
         PWeaponSkill->setAoe(rset->get<uint8>("aoe"));
+        PWeaponSkill->setRadius(rset->get<uint8>("radius"));
         PWeaponSkill->setPrimarySkillchain(rset->get<uint8>("primary_sc"));
         PWeaponSkill->setSecondarySkillchain(rset->get<uint8>("secondary_sc"));
         PWeaponSkill->setTertiarySkillchain(rset->get<uint8>("tertiary_sc"));
@@ -223,7 +224,7 @@ void LoadMobSkillsList()
         PMobSkill->setValidTargets(rset->get<uint16>("mob_valid_targets"));
         PMobSkill->setFlag(rset->get<uint8>("mob_skill_flag"));
         PMobSkill->setParam(rset->get<int16>("mob_skill_param"));
-        PMobSkill->setKnockback(rset->get<uint8>("knockback"));
+        PMobSkill->setKnockback(rset->get<Knockback>("knockback"));
         PMobSkill->setPrimarySkillchain(rset->get<uint8>("primary_sc"));
         PMobSkill->setSecondarySkillchain(rset->get<uint8>("secondary_sc"));
         PMobSkill->setTertiarySkillchain(rset->get<uint8>("tertiary_sc"));

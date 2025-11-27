@@ -2505,6 +2505,7 @@ void CBattleEntity::OnMobSkillFinished(CMobSkillState& state, action_t& action)
         result.resolution = ActionResolution::Hit;
         result.animation  = PSkill->getAnimationID();
         result.messageID  = PSkill->getMsg();
+        result.knockback  = luautils::callGlobal<Knockback>("xi.mobskills.calculateKnockback", PTargetFound, this, PSkill, &action);
 
         // reset the skill's message back to default
         PSkill->setMsg(defaultMessage);
@@ -2568,6 +2569,9 @@ void CBattleEntity::OnMobSkillFinished(CMobSkillState& state, action_t& action)
             {
                 msg = MSGBASIC_TARGET_EVADES;
             }
+
+            // Evading negates knockback
+            result.knockback = Knockback::None;
         }
         else
         {
@@ -2576,11 +2580,6 @@ void CBattleEntity::OnMobSkillFinished(CMobSkillState& state, action_t& action)
 
         if (result.resolution != ActionResolution::Miss && result.resolution != ActionResolution::Parry)
         {
-            if (result.resolution == ActionResolution::Hit)
-            {
-                result.knockback = PSkill->getKnockback();
-            }
-
             if (first && PTargetFound->health.hp > 0 && PSkill->getPrimarySkillchain() != 0)
             {
                 const auto effect = battleutils::GetSkillChainEffect(PTargetFound, PSkill->getPrimarySkillchain(), PSkill->getSecondarySkillchain(), PSkill->getTertiarySkillchain());
