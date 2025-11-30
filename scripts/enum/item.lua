@@ -1938,6 +1938,7 @@ xi.item =
     PUNCH_BUG                           = 2977,
     WITHERED_COCOON                     = 3072,
     ERUCA_EGG                           = 3073,
+    LUMP_OF_BLANCHED_SILVER             = 3074,
     VIAL_OF_UNDYING_OOZE                = 3075,
     HANDFUL_OF_BONE_CHIPS               = 3076,
     SET_OF_WAILING_RAGS                 = 3077,

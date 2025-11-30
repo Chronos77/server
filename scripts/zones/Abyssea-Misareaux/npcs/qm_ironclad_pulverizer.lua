@@ -10,7 +10,7 @@ local ID = zones[xi.zone.ABYSSEA_MISAREAUX]
 local entity = {}
 
 entity.onTrigger = function(player, npc)
-    xi.abyssea.qmOnTrigger(player, npc, ID.mob.IRONCLAD_PULVERIZER, { xi.ki.ATMA_OF_THE_RAZED_RUINS })
+    xi.abyssea.qmOnTrigger(player, npc, ID.mob.IRONCLAD_PULVERIZER, { xi.ki.BLAZING_CLUSTER_SOUL, xi.ki.SCALDING_IRONCLAD_SPIKE })
 end
 
 entity.onEventUpdate = function(player, csid, option, npc)

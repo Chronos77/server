@@ -21,7 +21,8 @@ xi.magian.trials =
             itemId = xi.item.PEELER,
         },
 
-        textOffset  = 371,
+        textOffset  = 1, -- Index 2419 in RULUDE.xml: 2419 - 2418 = 1
+        defeatMob   = true,
         numRequired = 3,
 
         rewardItem =
@@ -38,7 +39,8 @@ xi.magian.trials =
             itemId = xi.item.RENEGADE,
         },
 
-        textOffset  = 371,
+        textOffset  = 2, -- Index 2420 in RULUDE.xml: 2420 - 2418 = 2
+        defeatMob   = true,
         numRequired = 3,
 
         rewardItem =
@@ -63,7 +65,8 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 371,
+        textOffset  = 3, -- Index 2421 in RULUDE.xml: 2421 - 2418 = 3
+        defeatMob   = true,
         numRequired = 3,
 
         rewardItem =
@@ -88,7 +91,8 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 371,
+        textOffset  = 43, -- Index 2461 in RULUDE.xml: 2461 - 2418 (base) = 43
+        defeatMob   = true,
         numRequired = 4,
 
         rewardItem =
@@ -105,7 +109,8 @@ xi.magian.trials =
             itemId       = xi.item.KARTIKA,
         },
 
-        textOffset  = 371,
+        textOffset  = 44, -- Index 2462 in RULUDE.xml: 2462 - 2418 = 44
+        defeatMob   = true,
         numRequired = 4,
 
         rewardItem =
@@ -130,7 +135,8 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 371,
+        textOffset  = 45, -- Index 2463 in RULUDE.xml: 2463 - 2418 = 45
+        defeatMob   = true,
         numRequired = 4,
 
         rewardItem =
@@ -155,7 +161,8 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 371,
+        textOffset  = 46, -- Index 2464 in RULUDE.xml: 2464 - 2418 = 46
+        defeatMob   = true,
         numRequired = 6,
 
         rewardItem =
@@ -180,7 +187,8 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 371,
+        textOffset  = 47, -- Index 2465 in RULUDE.xml: 2465 - 2418 = 47
+        defeatMob   = true,
         numRequired = 6,
 
         rewardItem =
@@ -4460,7 +4468,8 @@ xi.magian.trials =
             },
         },
 
-        textOffset  = 417,
+        textOffset  = 417, -- Index 2835 in RULUDE.xml: 2835 - 2418 = 417
+        defeatMob   = true,
         numRequired = 8,
 
         rewardItem =

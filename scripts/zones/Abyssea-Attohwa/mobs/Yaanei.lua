@@ -30,7 +30,7 @@ local entity = {}
 
 entity.onMobInitialize = function(mob)
     -- Enhanced movement speed (12%)
-    mob:setMod(xi.mod.RUN_SPEED_MULT, 112)
+    mob:setMobMod(xi.mobMod.RUN_SPEED_MULT, 112)
     
     -- High defense
     mob:setMod(xi.mod.DEF, mob:getMod(xi.mod.DEF) + 50) -- Adjust as needed
@@ -43,7 +43,7 @@ entity.onMobInitialize = function(mob)
     mob:setMod(xi.mod.STUNRES, 95) -- Very high resistance to stun
     
     -- Wide aggro range
-    mob:setMobMod(xi.mobMod.AGGRO_RANGE, 20) -- Adjust as needed for wide range
+    mob:setMobMod(xi.mobMod.SIGHT_RANGE, 20) -- Adjust as needed for wide range
 end
 
 entity.onMobSpawn = function(mob)

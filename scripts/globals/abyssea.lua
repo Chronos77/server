@@ -777,11 +777,18 @@ xi.abyssea.giveNMDrops = function(mob, player, ID)
     local playerClaimed = GetPlayerByID(mob:getLocalVar('[ClaimedBy]'))
 
     for _, keyItemId in pairs(normalDrops) do
-        if
-            playerClaimed and
-            xi.abyssea.canGiveNMKI(mob, 20)
-        then
-            npcUtil.giveKeyItem(playerClaimed, keyItemId, ID.text.PLAYER_KEYITEM_OBTAINED)
+        if playerClaimed then
+            local ally = playerClaimed:getAlliance()
+
+            for _, member in ipairs(ally) do
+                if not member:hasKeyItem(keyItemId) and xi.abyssea.canGiveNMKI(mob, 20) then
+                    npcUtil.giveKeyItem(member, keyItemId, ID.text.PLAYER_KEYITEM_OBTAINED)
+                end
+            end
+
+            if not playerClaimed:hasKeyItem(keyItemId) then
+                npcUtil.giveKeyItem(playerClaimed, keyItemId, ID.text.PLAYER_KEYITEM_OBTAINED)
+            end
         end
     end
 

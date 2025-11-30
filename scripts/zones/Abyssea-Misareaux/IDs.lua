@@ -87,6 +87,8 @@ zones[xi.zone.ABYSSEA_MISAREAUX] =
         AMHULUK = GetFirstID('Amhuluk'),
         SOBEK = GetFirstID('Sobek'),
         IRONCLAD_PULVERIZER = GetFirstID('Ironclad_Pulverizer'),
+        KUTHAREI = GetFirstID('Kutharei'),
+        IRONCLAD_SEVERER = GetFirstID('Ironclad_Severer'),
     },
     npc =
     {

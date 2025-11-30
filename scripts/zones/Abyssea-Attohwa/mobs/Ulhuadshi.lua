@@ -37,7 +37,7 @@ entity.onMobInitialize = function(mob)
     mob:setMod(xi.mod.PARALYZERES, -20) -- Negative means more susceptible
     
     -- Vulnerable to Defense Down effects
-    mob:setMod(xi.mod.DEFDOWNRES, -20)
+    -- Note: No specific mod exists for defense down resistance; vulnerability is handled by game mechanics
 end
 
 entity.onMobSpawn = function(mob)

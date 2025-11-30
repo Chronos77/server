@@ -622,13 +622,18 @@ INSERT INTO `mob_droplist` VALUES (69,2,0,1000,656,0);        -- Beastcoin (Stea
 INSERT INTO `mob_droplist` VALUES (69,4,0,1000,4409,0);       -- Hard-Boiled Egg (Despoil)
 INSERT INTO `mob_droplist` VALUES (69,4,0,1000,4552,0);       -- Serving Of Herb Crawler Eggs (Despoil)
 
--- ZoneID: 216 - Amhuluk -- TODO: Abyssea NM
+-- ZoneID: 216 - Amhuluk
 INSERT INTO `mob_droplist` VALUES (70,0,0,1000,19129,@ALWAYS);  -- Rapidus Sax (Always, 100%)
-INSERT INTO `mob_droplist` VALUES (70,0,0,1000,18532,@RARE);    -- Cleofun Axe (Rare, 5%)
-INSERT INTO `mob_droplist` VALUES (70,0,0,1000,3223,@ALWAYS);   -- Coin Of Balance (Always, 100%)
-INSERT INTO `mob_droplist` VALUES (70,0,0,1000,3224,@COMMON);   -- Jewel Of Balance (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (70,0,0,1000,18532,220);      -- Cleofun Axe (22%)
+INSERT INTO `mob_droplist` VALUES (70,0,0,1000,3223,740);      -- Coin Of Balance (74%)
+INSERT INTO `mob_droplist` VALUES (70,0,0,1000,3224,680);       -- Jewel Of Balance (68%)
 INSERT INTO `mob_droplist` VALUES (70,0,0,1000,3215,@UNCOMMON); -- Coin Of Ardor (Uncommon, 10%)
 INSERT INTO `mob_droplist` VALUES (70,0,0,1000,3216,@UNCOMMON); -- Jewel Of Ardor (Uncommon, 10%)
+INSERT INTO `mob_droplist` VALUES (70,0,0,1000,655,20);        -- Adaman Ingot (2%)
+INSERT INTO `mob_droplist` VALUES (70,0,0,1000,836,60);        -- Square Of Damascene Cloth (6%)
+INSERT INTO `mob_droplist` VALUES (70,0,0,1000,2703,40);       -- Square Of Khromated Leather (4%)
+INSERT INTO `mob_droplist` VALUES (70,0,0,1000,1306,@UNCOMMON); -- Dark Bead (10%)
+INSERT INTO `mob_droplist` VALUES (70,0,0,1000,1302,80);       -- Earth Bead (8%)
 
 -- ZoneID:  77 - Carnero
 -- ZoneID:  77 - Stray Mary
@@ -6082,7 +6087,7 @@ INSERT INTO `mob_droplist` VALUES (705,4,0,1000,902,0);          -- Demon Horn (
 INSERT INTO `mob_droplist` VALUES (705,4,0,1000,886,0);          -- Demon Skull (Despoil)
 
 -- ZoneID: 215 - Drekavac -- TODO: Abyssea NM
-INSERT INTO `mob_droplist` VALUES (706,0,0,1000,17855,@COMMON); -- Ney (Common, 15%)
+INSERT INTO `mob_droplist` VALUES (706,0,0,1000,17855,@VCOMMON); -- Ney (Very Common, 24%)
 
 -- ZoneID: 167 - Drexerion The Condemned
 INSERT INTO `mob_droplist` VALUES (707,0,0,1000,13912,@COMMON);   -- Shadow Mask (Common, 15%)

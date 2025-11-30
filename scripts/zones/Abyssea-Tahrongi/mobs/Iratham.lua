@@ -27,7 +27,7 @@ entity.onMobInitialize = function(mob)
     -- Susceptible to Paralyze, Slow, Addle (no immunities set for these)
     
     -- Enhanced movement speed (+25%)
-    mob:setMod(xi.mod.RUN_SPEED_MULT, 125)
+    mob:setMobMod(xi.mobMod.RUN_SPEED_MULT, 125)
     
     -- Double Attack
     mob:setMod(xi.mod.DOUBLE_ATTACK, 10) -- 10% base chance, adjust as needed

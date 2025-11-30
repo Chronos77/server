@@ -9,16 +9,12 @@ local ID = zones[xi.zone.ABYSSEA_MISAREAUX]
 ---@type TNpcEntity
 local entity = {}
 
+entity.onTrade = function(player, npc, trade)
+    xi.abyssea.qmOnTrade(player, npc, trade, ID.mob.NEHEBKAU, { xi.item.HARDENED_RAPTOR_SKIN })
+end
+
 entity.onTrigger = function(player, npc)
-    xi.abyssea.qmOnTrigger(player, npc, ID.mob.NEHEBKAU, { xi.ki.ATMA_OF_THE_RAPID_REPTILIAN })
-end
-
-entity.onEventUpdate = function(player, csid, option, npc)
-    xi.abyssea.qmOnEventUpdate(player, csid, option, npc)
-end
-
-entity.onEventFinish = function(player, csid, option, npc)
-    xi.abyssea.qmOnEventFinish(player, csid, option, npc)
+    xi.abyssea.qmOnTrigger(player, npc, 0, 0, { xi.item.HARDENED_RAPTOR_SKIN })
 end
 
 return entity
